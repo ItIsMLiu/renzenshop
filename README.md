@@ -16,7 +16,7 @@ The URL of the GitHub repository: https://github.com/ItIsMLiu/renzenshop
 
 Screenshot of home page of website:
 
-![Screenshot of home page of website when screen width is larger than 992px](./src/assets/images/home.png)
+![Screenshot of home page of website](./src/assets/images/home.png)
 
 ## Installation
 
