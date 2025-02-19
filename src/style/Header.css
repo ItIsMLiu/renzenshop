@@ -1,0 +1,90 @@
+/* header */
+/* Nav bar */
+.customNav {
+    padding: 0;
+    background: var(--colour5) !important;
+}
+
+.navContain {
+    padding: 0 !important;
+}
+
+/* RenZen logo header */
+.logo-button {
+    height: 120px;  /* Adjust size */
+    width: auto;
+    cursor: pointer;
+  }
+
+.navbar-brand {
+    padding: 10px 50px 10px 50px !important;
+}
+
+/* menu */
+.navbar-nav { 
+    margin: 0px 50px !important;
+}
+
+.nav-item {
+    margin: 5px !important;
+}
+
+nav a {
+    font-weight: normal !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-item a:hover,
+.dropdown-item a:hover { 
+    color: var(--colour3) !important;
+    transform: scale(1.05);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: none !important;
+    color: var(--colour3) !important;
+    transform: scale(1.05);
+    border-bottom: 2px solid var(--colour3) !important;
+    border-radius: 0px;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: var(--colour2) !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.navbar-toggler {
+    margin-right: 50px !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.navbar-toggler:focus, 
+.navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.fa-bars, .fa-xmark {
+    color: var(--colour3);
+    font-size: 30px;
+}
+
+/* media queries */
+@media only screen and (max-width: 880px) {
+/* nav bar */
+    .nav-link {
+        padding: 5px !important;
+        display: inline-block !important;
+    } 
+}
