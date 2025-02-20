@@ -10,8 +10,8 @@ function Footer() {
                 <div className="col-sm-12 col-lg-12 col-md-12">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">Premium Made to Measure Curtains</h5>
-                            <p className="card-text">Style your space, frame your view.</p>
+                            <h5 className="card-title">RenZen's Tailored Curtains </h5>
+                            <p className="card-text">for a perfect fit and timeless style.</p>
                             <a href="mailto:renzenshop@outlook.com" className="btn btn-primary">Email Now!</a>
                         </div>
                     </div>

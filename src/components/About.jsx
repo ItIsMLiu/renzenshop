@@ -9,7 +9,6 @@ function About() {
         <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>Contact</h2></div>
         <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
           <div className="container">
-
             <div className="row">
               <div className="card col-lg-12 col-md-12 col-sm-12">
                 <p>Thank you for taking the time to explore my portfolio! If you have any inquiries, collaboration proposals, or just want to say hello, I'd love to hear from you. Feel free to reach out using the contact form below or through the provided contact details.</p>

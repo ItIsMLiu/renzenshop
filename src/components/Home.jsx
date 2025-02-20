@@ -7,10 +7,10 @@ import "../style/Global.css"
 function Home() {
   return <>
     <div className="mb-4">
-      <div className="container-fluid hero">
+      <div className="container-fluid homeHero">
         <p className="col-12 fs-4">Made to Measure</p>
         <h1 className="col-12 fw-bold">Premium Curtains</h1>
-        <p className="col-12 fs-4">Style Your Space, Frame Your View.</p>
+        <p className="col-12 fs-4">Style your space, frame your view.</p>
         <NavLink 
           to="/renzenshop/contact"
           end
