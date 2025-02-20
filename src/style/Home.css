@@ -14,32 +14,34 @@
     width: fit-content;
     margin-left: 30px !important;
     position: relative !important;
-    bottom: -180px !important;
+    bottom: -33vh !important;
     display: block !important;
 }
 
-/* hero text 'font end developer' */
+/* hero text */
 .hero p {
     color: var(--colour2) !important;
     width: fit-content;
     margin-left: 30px !important;
     position: relative !important;
-    bottom: -180px !important;
+    bottom: -35vh !important;
     display: block !important;
 }
 
-#git .btn-primary {
+#herogit .btn-primary {
     background-color: var(--colour3) !important;
     border: var(--colour3) !important;
     border-radius: 0 !important;
     margin-left: 30px !important;
-    position: relative !important;
-    bottom: -180px !important;
     --bs-btn-active-color: var(--colour3) !important;
     --bs-btn-active-bg: var(--colour2) !important;
     --bs-btn-active-border-color: var(--colour2) !important;
 }
 
+#herogit {
+    position: relative !important;
+    bottom: -500px !important;
+}
 /*-------------------------------------*/
 /* Main content section */
 /* general */
