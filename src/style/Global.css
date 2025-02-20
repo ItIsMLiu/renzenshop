@@ -6,19 +6,21 @@
 }
   
 body {
-  margin: 0 !important;
-  padding: 0 !important;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
-  line-height: 1.5 !important;
+  font-family: 'Montserrat', 'Bogart', 'Cormorant Garamond', serif !important;
+  font-weight: 300 !important; 
+  line-height: 1.6 !important;
   color: var(--colour1) !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 !important;
+  font-family: 'Bogart', 'Cormorant Garamond', serif !important;
+  font-weight: 700 !important;
 }
 
 p {
-  margin: 0 !important;
+  font-family: 'Montserrat', 'Bogart', 'Cormorant Garamond', serif !important;
+  font-weight: 400 !important; 
+  line-height: 1.6 !important;
 }
 
 /*-------------------------------------*/

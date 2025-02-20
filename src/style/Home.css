@@ -2,17 +2,16 @@
 /* hero */
 /* hero image */
 .hero {
-    background-image: url(../assets/images/02-hero-bg.jpg);
+    background-image: url(../assets/images/hero-img.jpg);
     background-size: cover !important;
-    background-position: right !important;
-    height: 40vh !important;
+    height: 85vh !important;
     min-height: 500px !important;
 }
 
-/* hero text 'Minhui Liu' */
+/* hero text */
 .hero h1{
     color: var(--colour2) !important;
-    font-size: 30px !important;
+    width: fit-content;
     margin-left: 30px !important;
     position: relative !important;
     bottom: -180px !important;
@@ -22,6 +21,7 @@
 /* hero text 'font end developer' */
 .hero p {
     color: var(--colour2) !important;
+    width: fit-content;
     margin-left: 30px !important;
     position: relative !important;
     bottom: -180px !important;
@@ -64,28 +64,6 @@
 
 /* media queries */
 @media only screen and (max-width: 880px) {
-/* hero */
-.hero h1{
-    text-align: right !important;
-    float: right !important;
-    margin-right: 20px !important;
-    position: relative !important;
-    top: 30px !important;
-    display: block !important;
-}
-
-.hero p {
-    text-align: right !important;
-    float: right !important;
-    margin-right: 20px !important;
-    position: relative !important;
-    top: 30px !important;
-    display: block !important;
-}
-
-.hero .btn-primary {
-    display: none !important;
-}   
 }
 
 @media only screen and (max-width: 992px) {

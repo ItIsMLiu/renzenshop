@@ -11,18 +11,18 @@
 
 /* RenZen logo header */
 .logo-button {
-    height: 120px;  /* Adjust size */
+    height: 15vh; 
+    min-height: 95px;
     width: auto;
     cursor: pointer;
+    padding: 8px 30px 8px 30px !important;
   }
 
-.navbar-brand {
-    padding: 10px 50px 10px 50px !important;
-}
+
 
 /* menu */
 .navbar-nav { 
-    margin: 0px 50px !important;
+    margin: 0px 30px !important;
 }
 
 .nav-item {

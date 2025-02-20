@@ -8,8 +8,9 @@ function Home() {
   return <>
     <div className="mb-4">
       <div className="container-fluid hero">
-        <h1 className="col-12 fw-bold">Minhui Liu</h1>
-        <p className="col-12 fs-4">Front End Developer</p>
+        <p className="col-12 fs-4">Made to Measure</p>
+        <h1 className="col-12 fw-bold">Premium Curtains</h1>
+        <p className="col-12 fs-4">Style Your Space, Frame Your View.</p>
         <NavLink 
           to="/renzenshop/contact"
           end
