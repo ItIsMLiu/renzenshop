@@ -13,11 +13,13 @@ function Contact() {
       </div>
     </div>
 
-    <div className="container-fluid allContent d-flex flex-column justify-content-center align-items-center">
-      <div className="row align-items-center" id="contact"> 
+    <div className="container-fluid contactBody">
+      <div className="row d-flex flex-column justify-content-center align-items-center" id="contact"> 
         <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
           <div className="row">
-            <h2 className="card-title">Contact Form:</h2>
+            <h2 className="card-title">Contact Form</h2>
+            <p>For your convenience, please use the form below to send us a message. We typically respond within 24 hours. If you don't receive a reply, please check your junk or spam folder, as some messages may be directed there. Thank you!
+            </p>
             <form action="https://getform.io/f/axowwyrb" method="POST" id='contactForm'>
               <div class="mb-3">
                 <label for="name" class="form-label">Name:</label>
@@ -34,11 +36,13 @@ function Contact() {
               </div>
               <button type="submit" class="btn btn-primary" id="contact">Submit</button>
             </form>
+            <p>Thank you for reaching out to us. We look forward to assisting you!</p>
           </div>
           <br/>
           <div className="row">
             <div className="card col-lg-12 col-md-12 col-sm-12">
               <h2 className="card-title" id="git">Get in Touch</h2>
+              <p>We are based in Bristol and operate exclusively online. We serve Bristol and nearby cities, including Cardiff and Bath etc. Curtain samples can be brought to your home during scheduled measurement appointments.</p>
               <ul className="nav nav-fill nav-underline">
                 <li className="nav-item">
                   <a className="nav-link icon-link" href="mailto:renzenshop@outlook.com">
@@ -62,8 +66,15 @@ function Contact() {
                 </li>
                 <li className="nav-item icon-link">
                   <a className="nav-link" href="https://www.google.com/maps/place/Bristol/@51.4683734,-2.7555235,11z/data=!3m1!4b1!4m6!3m5!1s0x4871836681b3d861:0x8ee4b22e4b9ad71f!8m2!3d51.454513!4d-2.58791!16zL20vMDk1bDA?entry=ttu">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt" viewBox="0 0 16 16"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>  
-                    Bristol, UK (Based in Bristol, service nearby cities, with an online store only) 
+                    <span className="icon-container">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      </svg>
+                    </span>
+                    <span className="text-container">
+                      Bristol, UK
+                    </span>
                   </a>
                 </li>
               </ul>

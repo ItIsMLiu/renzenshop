@@ -64,17 +64,24 @@ svg {
     --bs-btn-active-border-color: var(--colour2) !important;
 }
 
-.section-block {
-    max-width: 80%;
+#contactForm {
+    padding-top: 8px;
+    padding-bottom: 20px;
 }
 
-#contactForm {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.contactBody {
+    width: 50% !important;
 }
 
 @media only screen and (max-width: 880px) {
     .contactHero p {
-        width: 80%;
+        width: 80% !important;
+    }
+    .contactBody {
+        width: 90% !important;
+    }
+    .nav-item .nav-link {
+        display: inline-block !important;
+
     }
 }
