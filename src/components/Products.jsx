@@ -6,57 +6,66 @@ import "../style/Global.css"
 
 function Products() {
   return (
-    <div className="container-fluid allContent">
-      <div className="row align-items-center" >
-        <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>Portfolio Gallery</h2></div>
-        <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
-          <div className="container">
-            <div className="row">
-              <div className="card col-lg-12 col-md-12 col-sm-12">
-                <h5 className="card-title">Description:</h5>
-                <p className="card-text">Welcome to my work portfolio showcasing an array of webpage projects crafted with HTML, CSS, and JavaScript. This compilation encapsulates a diverse range of creations, from responsive and interactive websites to dynamic user interfaces. Each project emphasizes the fusion of clean HTML structure, aesthetically pleasing CSS design, and the functionality infused by JavaScript. From engaging landing pages to immersive web applications, this portfolio demonstrates my proficiency in leveraging these core web technologies to create compelling online experiences.</p>
+    <>
+      <div className="mb-4">
+        <div className="container-fluid productsHero d-flex flex-column justify-content-center align-items-center">
+          <h1 className="col-12 fw-bold text-center">Products</h1>
+          <p className="col-12 fs-4 text-center"></p>
+        </div>
+      </div>
+
+      <div className="container-fluid allContent">
+        <div className="row align-items-center" >
+          <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>Portfolio Gallery</h2></div>
+          <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
+            <div className="container">
+              <div className="row">
+                <div className="card col-lg-12 col-md-12 col-sm-12">
+                  <h5 className="card-title">Description:</h5>
+                  <p className="card-text">Welcome to my work portfolio showcasing an array of webpage projects crafted with HTML, CSS, and JavaScript. This compilation encapsulates a diverse range of creations, from responsive and interactive websites to dynamic user interfaces. Each project emphasizes the fusion of clean HTML structure, aesthetically pleasing CSS design, and the functionality infused by JavaScript. From engaging landing pages to immersive web applications, this portfolio demonstrates my proficiency in leveraging these core web technologies to create compelling online experiences.</p>
+                </div>
+                <Project 
+                  title = {projects[0].title}
+                  deployed = {projects[0].deployed}
+                  repo = {projects[0].repo}
+                  image = {projects[0].image}
+                />
+                <Project 
+                  title = {projects[1].title}
+                  deployed = {projects[1].deployed}
+                  repo = {projects[1].repo}
+                  image = {projects[1].image}
+                />
+                <Project 
+                  title = {projects[2].title}
+                  deployed = {projects[2].deployed}
+                  repo = {projects[2].repo}
+                  image = {projects[2].image}
+                />
+                <Project 
+                  title = {projects[3].title}
+                  deployed = {projects[3].deployed}
+                  repo = {projects[3].repo}
+                  image = {projects[3].image}
+                />
+                <Project 
+                  title = {projects[4].title}
+                  deployed = {projects[4].deployed}
+                  repo = {projects[4].repo}
+                  image = {projects[4].image}
+                />
+                <Project 
+                  title = {projects[5].title}
+                  deployed = {projects[5].deployed}
+                  repo = {projects[5].repo}
+                  image = {projects[5].image}
+                />
               </div>
-              <Project 
-                title = {projects[0].title}
-                deployed = {projects[0].deployed}
-                repo = {projects[0].repo}
-                image = {projects[0].image}
-              />
-              <Project 
-                title = {projects[1].title}
-                deployed = {projects[1].deployed}
-                repo = {projects[1].repo}
-                image = {projects[1].image}
-              />
-              <Project 
-                title = {projects[2].title}
-                deployed = {projects[2].deployed}
-                repo = {projects[2].repo}
-                image = {projects[2].image}
-              />
-              <Project 
-                title = {projects[3].title}
-                deployed = {projects[3].deployed}
-                repo = {projects[3].repo}
-                image = {projects[3].image}
-              />
-              <Project 
-                title = {projects[4].title}
-                deployed = {projects[4].deployed}
-                repo = {projects[4].repo}
-                image = {projects[4].image}
-              />
-              <Project 
-                title = {projects[5].title}
-                deployed = {projects[5].deployed}
-                repo = {projects[5].repo}
-                image = {projects[5].image}
-              />
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
