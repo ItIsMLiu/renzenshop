@@ -1,0 +1,37 @@
+
+    .orderImg {
+        background-image: url(../assets/images/orderheroimg.jpg);
+    }
+
+    svg {
+    margin-right: 5px !important; 
+    }
+
+    #order .btn-primary {
+        background-color: var(--colour3) !important;
+        border: var(--colour3) !important;
+        border-radius: 0 !important;
+        position: relative !important;
+        bottom: 0px !important;
+        left: -30px !important;
+        --bs-btn-active-color: var(--colour3) !important;
+        --bs-btn-active-bg: var(--colour2) !important;
+        --bs-btn-active-border-color: var(--colour2) !important;
+    }
+
+    .orderBody {
+        width: 50% !important;
+    }
+
+    @media only screen and (max-width: 880px) {
+        .orderHero p {
+            width: 80% !important;
+        }
+        .orderBody {
+            width: 90% !important;
+        }
+        .nav-item .nav-link {
+            display: inline-block !important;
+
+        }
+    }

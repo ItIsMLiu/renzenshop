@@ -1,3 +1,8 @@
+/* Hero Image */
+.productsImg {
+    background-image: url(../assets/images/productsheroimg.jpg);
+}
+
 .allContent {
     width: 95% !important;
 }
@@ -47,51 +52,6 @@
     position: absolute !important;
     bottom: 30px !important;
     color: var(--colour2) !important;
-}
-
-/* Hero Image */
-.productsHero {
-    position: relative; /* Make sure the pseudo-element is positioned correctly */
-    background-image: url(../assets/images/productsheroimg.jpg);
-    background-size: cover !important;
-    background-position: center !important;
-    height: 45vh !important;
-    min-height: 500px !important;
-  }
-  
-  .productsHero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1); /* Dark overlay with 50% opacity */
-    z-index: 1; /* Ensure it sits on top of the background but behind the text */
-  }
-  
-  .productsHero > * {
-    position: relative; /* Ensure text and other elements are above the overlay */
-    z-index: 2;
-  }
-
-/* Hero text */
-.productsHero h1{
-    color: var(--colour2) !important;
-    width: 90%;
-    font-size: clamp(30px, 4vw, 80px) !important;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-.productsHero p {
-    color: var(--colour2) !important;
-    width: 50%;
-    font-size: clamp(14px, 1.5vw, 22px) !important;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-svg {
-   margin-right: 5px !important; 
 }
 
 #products .btn-primary {

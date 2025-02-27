@@ -4,7 +4,9 @@
 * {
     box-sizing: border-box !important;
 }
-  
+
+/*-------------------------------------*/
+/* Text */
 body {
   font-family: 'Montserrat', 'Bogart', 'Cormorant Garamond', serif !important;
   font-weight: 400 !important; 
@@ -24,7 +26,6 @@ p {
 }
 
 /*-------------------------------------*/
-/* general */
 /* colours */
 :root {
   --colour1: #5A554E;
@@ -34,7 +35,17 @@ p {
   --colour5: white; 
 }
 
-/* All buttons */
+/*-------------------------------------*/
+/* buttons */
+.btn-primary {
+  background-color: var(--colour3) !important;
+  border: var(--colour3) !important;
+  border-radius: 0 !important;
+  --bs-btn-active-color: var(--colour3) !important;
+  --bs-btn-active-bg: var(--colour2) !important;
+  --bs-btn-active-border-color: var(--colour2) !important;
+}
+
 .btn-primary:hover, .btn-primary:active {
   background: var(--colour4);
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset !important;
@@ -50,26 +61,53 @@ button a {
 button a:active {
   color: var(--colour3) !important;
 }
-  
+
+/*-------------------------------------*/
+/* for generic hero heading */
+.genericHero {
+  position: relative;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 35vh !important;
+  min-height: 400px !important;
+}
+
+.genericHero::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.1); 
+z-index: 1;
+}
+
+.genericHero > * {
+position: relative;
+z-index: 2;
+}
+
+.genericHero h1{
+  color: var(--colour2) !important;
+  width: 90%;
+  font-size: clamp(48px, 4vw, 80px) !important;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.genericHero p {
+  color: var(--colour2) !important;
+  width: 50%;
+  font-size: clamp(18px, 1.5vw, 22px) !important;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 /*-------------------------------------*/
 /* Main content section */
-/* general */
-.allContent {
-  width: 95% !important;
-}
 
 .secTitleContain {
   text-align: right !important;
   padding-right: 50px !important;
-}
-
-.section-block {
-  margin: 20px 0px 20px 0px !important;
-}
-
-.card {
-  padding: 10px !important;
-  border: none !important;
 }
 
 /* media queries */

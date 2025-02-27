@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Step 1 - Quote",
+        "link": "https://itismliu.github.io/daily-planner-app/",
+        "image": "../src/assets/images/step1img.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Step 2 - Customise",
+        "link": "https://itismliu.github.io/daily-planner-app/",
+        "image": "../src/assets/images/step2img.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Step 3 - Pay",
+        "link": "https://itismliu.github.io/daily-planner-app/",
+        "image": "../src/assets/images/step1img.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Step 4 - Install",
+        "link": "https://itismliu.github.io/daily-planner-app/",
+        "image": "../src/assets/images/step2img.jpg"
+    }
+]

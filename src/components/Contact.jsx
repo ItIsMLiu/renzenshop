@@ -5,7 +5,7 @@ import "../style/Global.css"
 function Contact() {
   return <>
     <div className="mb-4">
-      <div className="container-fluid contactHero d-flex flex-column justify-content-center align-items-center">
+      <div className="container-fluid genericHero contactImg d-flex flex-column justify-content-center align-items-center">
         <h1 className="col-12 fw-bold text-center">Contact Us</h1>
         <p className="col-12 fs-4 text-center">
           We'd love to hear from you! Whether you have a question, feedback, or need assistance, feel free to reach out to us.

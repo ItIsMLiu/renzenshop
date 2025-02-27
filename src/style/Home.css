@@ -1,4 +1,3 @@
-/*-------------------------------------*/
 /* homeHero */
 /* homeHero image */
 .homeHero {
@@ -16,7 +15,7 @@
     position: relative !important;
     bottom: -32vh !important;
     display: block !important;
-    font-size: clamp(30px, 4vw, 80px) !important;
+    font-size: clamp(38px, 4vw, 80px) !important;
 }
 
 /* homeHero text */
@@ -27,21 +26,11 @@
     position: relative !important;
     bottom: -35vh !important;
     display: block !important;
-    font-size: clamp(14px, 1.5vw, 22px) !important;
-}
-
-#herogit .btn-primary {
-    background-color: var(--colour3) !important;
-    border: var(--colour3) !important;
-    border-radius: 0 !important;
-    margin-left: 30px !important;
-    --bs-btn-active-color: var(--colour3) !important;
-    --bs-btn-active-bg: var(--colour2) !important;
-    --bs-btn-active-border-color: var(--colour2) !important;
+    font-size: clamp(18px, 1.5vw, 24px) !important;
 }
 
 #herogit {
     position: relative !important;
     bottom: -45vh !important;
-    font-size: clamp(14px, 1.5vw, 22px) !important;
+    font-size: clamp(16px, 1.5vw, 22px) !important;
 }

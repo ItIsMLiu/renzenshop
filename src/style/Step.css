@@ -1,0 +1,7 @@
+#step a {
+    color: var(--colour2) !important;
+}
+
+#step a:hover {
+    text-decoration-color: var(--colour2)!important;
+}

@@ -8,7 +8,7 @@ function Products() {
   return (
     <>
       <div className="mb-4">
-        <div className="container-fluid productsHero d-flex flex-column justify-content-center align-items-center">
+        <div className="genericHero productsImg container-fluid d-flex flex-column justify-content-center align-items-center">
           <h1 className="col-12 fw-bold text-center">Products</h1>
           <p className="col-12 fs-4 text-center"></p>
         </div>
