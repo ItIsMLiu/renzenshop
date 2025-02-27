@@ -4,44 +4,10 @@
   }
 
 .nav-fill .nav-item {
-    text-align: left !important;
     flex: none !important;
-}
-
-.nav-underline>.nav-item>a {
-    color: var(--colour1) !important;
-}
-
-#contact .btn-primary {
-    background-color: var(--colour3) !important;
-    border: var(--colour3) !important;
-    border-radius: 0 !important;
-    position: relative !important;
-    bottom: 0px !important;
-    left: -30px !important;
-    --bs-btn-active-color: var(--colour3) !important;
-    --bs-btn-active-bg: var(--colour2) !important;
-    --bs-btn-active-border-color: var(--colour2) !important;
 }
 
 #contactForm {
     padding-top: 8px;
     padding-bottom: 20px;
-}
-
-.contactBody {
-    width: 50% !important;
-}
-
-@media only screen and (max-width: 880px) {
-    .contactHero p {
-        width: 80% !important;
-    }
-    .contactBody {
-        width: 90% !important;
-    }
-    .nav-item .nav-link {
-        display: inline-block !important;
-
-    }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Container, Row, Col, Card, Button, Nav } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import "../style/About.css"
 import "../style/Global.css"
@@ -12,17 +12,17 @@ function About() {
       <p className="fs-4">Just a little bit about our background.</p>
     </Container>
 
-    <Container fluid className="aboutBody py-5" id="about">
+    <Container fluid className="py-5">
       <Row className="justify-content-center">
         <Col lg={5} md={8} sm={11}>
-          <Card className="text-center">
+          <Card className="text-center py-4">
             <h2>Who are we?</h2>
             <p>We are architects couple who share a deep passion for design and creating beautiful spaces. Our journey started with a love for minimalism and modern aesthetics, but also designs that respect historic spaces. Over the years, our fascination with colours, textures, and fabrics led us to the world of curtains—where functionality meets artistry.</p>
             <p>We believe that curtains are more than just window coverings; they bring warmth, personality, and character to a space. We take the time to understand your style, your needs, and the atmosphere you want to create. Whether you desire a soft, airy look or bold statement drapes, we're here to guide you in choosing the perfect fabric and design tailored just for you. </p>
             <p>Our goal is to help you craft a home that feels truly yours—one curtain at a time. </p>
           </Card>
 
-          <Card className="text-center">
+          <Card className="text-center py-4">
             <h2>Speak with us about your needs!</h2>
             <p>We usually respond within just a few hours, and always within 24 hours!</p>
             <NavLink 
@@ -36,7 +36,7 @@ function About() {
             </NavLink>
           </Card>
 
-          <Card className="text-center align-items-center">
+          <Card className="py-4">
             <h2>Connect With Us</h2>
             <p>Follow us on social media for updates and promotions:</p>
             <ul className="nav nav-fill nav-underline">
@@ -55,10 +55,10 @@ function About() {
                 </a>
               </li>
             </ul>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   </>
 }
 
