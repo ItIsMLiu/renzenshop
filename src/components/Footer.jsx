@@ -1,28 +1,29 @@
 import React from 'react';
-import "../style/Footer.css"
-import "../style/Global.css"
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import "../style/Footer.css";
+import "../style/Global.css";
 
 function Footer() {
-  return <>
-    <footer>
-        <div className="container">
-            <div className="row">
-                <div className="col-sm-12 col-lg-12 col-md-12">
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">RenZen's Tailored Curtains </h5>
-                            <p className="card-text">for a perfect fit and timeless style.</p>
-                            <a href="mailto:renzenshop@outlook.com" className="btn btn-primary">Email Now!</a>
+  return (
+    <footer className="text-center py-4">
+        <Container>
+            <Row className="justify-content-center">
+                <Col md={6}>
+                    <Card className="border-0 footerCard">
+                        <h5 className="fw-bold">RenZen's Tailored Curtains</h5>
+                        <p className="text-muted">For a perfect fit and timeless style.</p>
+                        <div className="d-inline-block">
+                            <Button variant="primary" href="mailto:renzenshop@outlook.com" className="mt-2">
+                            Contact Now!
+                            </Button>
                         </div>
-                    </div>
-                </div>
-                <div className="col-sm-12 col-lg-12 col-md-12">
-                    <p>&copy; 2025 - RenZen</p>
-                </div>            
-            </div>
-        </div>
+                        <p className="text-muted py-4">&copy; 2025 - RenZen</p>
+                    </Card>
+                </Col>
+            </Row>
+        </Container>
     </footer>
-  </>
+  );
 }
 
 export default Footer;
