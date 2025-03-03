@@ -1,80 +1,38 @@
-/* header */
-/* Nav bar */
-.customNav {
-    padding: 0;
+/* $Whole header */
+.custom-nav {
     background: var(--colour2) !important;
+    padding: 15px 30px !important;
 }
 
-.navContain {
-    padding: 0 !important;
-}
-
-/* RenZen logo header */
+/* $RenZen Logo */
 .logo-button {
-    height: 15vh; 
+    height: 12vh; 
     min-height: 95px;
     width: auto;
+    padding: 0px 0px;
     cursor: pointer;
-    padding: 8px 30px 8px 30px !important;
-  }
-
-
-
-/* menu */
-.navbar-nav { 
-    margin: 0px 30px !important;
 }
 
-.nav-item {
-    margin: 5px !important;
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-weight: normal;
+    transition: all 0.3s ease;
+    color: var(--colour1);
+    padding: 2px 0px 2px 0px !important;
+    margin: 0px 15px 0px 15px !important;
 }
 
-nav a {
-    font-weight: normal !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.nav-item a:hover,
-.dropdown-item a:hover { 
-    color: var(--colour3) !important;
+.navbar-nav .nav-link:hover {
+    color: var(--colour3);
     transform: scale(1.05);
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background: none !important;
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid var(--colour3);
     color: var(--colour3) !important;
-    transform: scale(1.05);
-    border-bottom: 2px solid var(--colour3) !important;
-    border-radius: 0px;
 }
 
-.navbar-collapse {
-    flex-grow: 0 !important;
-}
-
-.dropdown-menu {
-    --bs-dropdown-bg: var(--colour2) !important;
-    border-radius: 0 !important;
-    border: none !important;
-}
-
-.navbar-toggler {
-    margin-right: 50px !important;
-    border-radius: 0 !important;
-    outline: none !important;
-    border: none !important;
-}
-
-.navbar-toggler:focus, 
-.navbar-toggler:active {
-    outline: none !important;
-    box-shadow: none !important;
-    border: none !important;
-}
-
+/* Navbar Toggler */
 .fa-bars, .fa-xmark {
     color: var(--colour3);
     font-size: 30px;
@@ -82,9 +40,14 @@ nav a {
 
 /* media queries */
 @media only screen and (max-width: 991px) {
-/* nav bar */
-    .nav-link {
-        padding: 5px 0px !important;
-        display: inline-block !important;
-    } 
+    .navbar-nav {
+        align-items: end;
+    }
+    .navbar-nav .nav-link {
+        width: max-content;
+        padding: 15px 0px 2px 0px !important;
+    }
+    #navbar-nav {
+        padding-bottom: 30px;
+    }
 }

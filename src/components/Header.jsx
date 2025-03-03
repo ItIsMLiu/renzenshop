@@ -1,102 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-
-import "../style/Header.css"
-/* import "../style/Global.css" */
+import "../style/Header.css";
 
 import logo from "../assets/renzen-logo.png";
-
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-  return <>
-    <nav className="navbar sticky-top navbar-expand-lg customNav">
-      <div className="container-fluid navContain">
-        <NavLink 
-          to="/renzenshop"
-          end
-          className='navbar-brand' 
+  return (
+    <Navbar expand="lg" sticky="top" expanded={isOpen} className="custom-nav">
+      <Container fluid>
+        {/* Brand Logo */}
+        <Navbar.Brand as={NavLink} to="/renzenshop">
+          <img src={logo} alt="RenZen Logo" className="logo-button" />
+        </Navbar.Brand>
+        
+        {/* Toggle Button */}
+        <Navbar.Toggle 
+          aria-controls="navbar-nav" 
+          onClick={() => setIsOpen(!isOpen)}
+          aria-expanded={isOpen}
+          className="border-0 shadow-none"
         >
-          <img src={logo} alt="renzen-Logo" className="logo-button" />
-        </NavLink>
-        <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav" 
-          aria-controls="navbarNav" 
-          aria-expanded={isOpen ? "true" : "false"}
-          aria-label="Toggle navigation"
-          onClick={() => setIsOpen(!isOpen)} 
-          > 
-          <FontAwesomeIcon icon={isOpen ? faTimes : faBars}/>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav nav-pills justify-content-end">
-            <li className="nav-item">
-              <NavLink 
-                to="/renzenshop"
-                end
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
+          <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="fs-3" />
+        </Navbar.Toggle>
+
+        {/* Navbar Items */}
+        <Navbar.Collapse id="navbar-nav">
+          <Nav className="ms-auto">
+            {["/", "/order", "/products", "/contact", "/about"].map((path, index) => (
+              <Nav.Link 
+                as={NavLink} 
+                to={`/renzenshop${path}`} 
+                end 
+                onClick={() => setIsOpen(false)}
+                className="mx-2"
+                key={index}
               >
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink 
-                to="/renzenshop/order"
-                end
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Order
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink 
-                to="/renzenshop/products"
-                end
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Products
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink 
-                to="/renzenshop/contact"
-                end
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Contact
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink 
-                to="/renzenshop/about"
-                end
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
-              >
-                About
-              </NavLink>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </>
+                {path === "/" ? "Home" : path.replace("/", "").charAt(0).toUpperCase() + path.slice(2)}
+              </Nav.Link>
+            ))}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
 export default Header;
