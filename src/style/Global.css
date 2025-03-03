@@ -61,8 +61,24 @@ button a:active {
   color: var(--colour3) !important;
 }
 
-.nav-underline>.nav-item>a {
+/*-------------------------------------*/
+/* Links */
+.custom-link {
   color: var(--colour1) !important;
+  text-decoration: none;
+  width: max-content;
+  white-space: nowrap
+}
+
+.custom-link:hover {
+  color: var(--colour3) !important;
+  border-bottom: 1px solid var(--colour3) !important;
+  transform: scale(1.01);
+}
+
+.custom-link.active {
+  border-bottom: 1px solid var(--colour3) !important;
+  color: var(--colour3) !important;
 }
 
 /*-------------------------------------*/
@@ -106,18 +122,6 @@ z-index: 2;
 }
 
 /*-------------------------------------*/
-/* Main content section */
-
-.secTitleContain {
-  text-align: right !important;
-  padding-right: 50px !important;
-}
-
 /* media queries */
 @media only screen and (max-width: 992px) {
-  .secTitleContain {
-    text-align: center !important;
-    border-bottom: 1.5px solid var(--colour1) !important;
-    width: 90% !important;
-  }
 }

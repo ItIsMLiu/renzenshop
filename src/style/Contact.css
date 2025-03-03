@@ -2,12 +2,4 @@
 .contactImg {
     background-image: url(../assets/images/contactheroimg.jpg);
   }
-
-.nav-fill .nav-item {
-    flex: none !important;
-}
-
-#contactForm {
-    padding-top: 8px;
-    padding-bottom: 20px;
-}
+  

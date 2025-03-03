@@ -29,8 +29,10 @@
     font-size: clamp(18px, 1.5vw, 24px) !important;
 }
 
+/* get in touch button */
 #herogit {
     position: relative !important;
     bottom: -45vh !important;
     font-size: clamp(16px, 1.5vw, 22px) !important;
+    margin-left: 30px !important;
 }
