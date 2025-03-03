@@ -13,11 +13,11 @@ function Footer() {
                         <h5 className="fw-bold">RenZen's Tailored Curtains</h5>
                         <p className="text-muted">For a perfect fit and timeless style.</p>
                         <div className="d-inline-block">
-                            <Button variant="primary" href="mailto:renzenshop@outlook.com" className="mt-2">
+                            <Button variant="primary" href="mailto:renzenshop@outlook.com">
                             Contact Now!
                             </Button>
                         </div>
-                        <p className="text-muted py-4">&copy; 2025 - RenZen</p>
+                        <p className="text-muted pt-3 mb-0">&copy; 2025 - RenZen</p>
                     </Card>
                 </Col>
             </Row>

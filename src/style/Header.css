@@ -1,4 +1,4 @@
-/* $Whole header */
+/* Whole header */
 .custom-nav {
     background: var(--colour2) !important;
     padding: 15px 30px !important;
@@ -9,17 +9,14 @@
     height: 12vh; 
     min-height: 95px;
     width: auto;
-    padding: 0px 0px;
     cursor: pointer;
 }
 
 /* Navbar Links */
 .navbar-nav .nav-link {
-    font-weight: normal;
-    transition: all 0.3s ease;
     color: var(--colour1);
-    padding: 2px 0px 2px 0px !important;
-    margin: 0px 15px 0px 15px !important;
+    padding: 2px 0px !important;
+    margin: 0px 15px !important;
 }
 
 .navbar-nav .nav-link:hover {
@@ -42,12 +39,10 @@
 @media only screen and (max-width: 991px) {
     .navbar-nav {
         align-items: end;
+        padding-bottom: 30px;
     }
     .navbar-nav .nav-link {
         width: max-content;
-        padding: 15px 0px 2px 0px !important;
-    }
-    #navbar-nav {
-        padding-bottom: 30px;
+        padding-top: 15px !important;
     }
 }
