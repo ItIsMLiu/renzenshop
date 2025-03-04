@@ -21,9 +21,7 @@
         "id": 3,
         "title": "Step 3 \n Payment",
         "description": "Once your requirements is finalised, secure your order with payment.",
-        "image": "../src/assets/images/step3img.jpg",
-        "link1": "/renzenshop/payment",
-        "buttonText1": "Make a Payment (Not Available Yet)"
+        "image": "../src/assets/images/step3img.jpg"
     },
     {
         "id": 4,
