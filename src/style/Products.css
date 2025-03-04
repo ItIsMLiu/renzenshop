@@ -3,13 +3,6 @@
     background-image: url(../assets/images/productsheroimg.jpg);
 }
 
-
-
-
-
-@media only screen and (max-width: 880px) {
-    .nav-item .nav-link {
-        display: inline-block !important;
-
-    }
+.products-row {
+    width: 95%;
 }

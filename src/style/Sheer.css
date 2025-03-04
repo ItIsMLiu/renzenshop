@@ -1,0 +1,27 @@
+.sheer-card {
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    overflow: hidden; /* Prevent content from overflowing */
+}
+  
+.sheer-image {
+    height: 100%; /* Make the image fill the card height */
+    width: 100%; /* Make the image fill the card width */
+    object-fit: cover; /* Ensure the image covers the entire space without distortion */
+    border-radius: 0px !important;
+}
+
+.sheer-title{
+    width: 100%;
+    padding: 5px !important;
+    color: var(--colour2) !important;
+    position: absolute;
+    word-wrap: break-word; /* Allow long words to break and wrap */
+    overflow-wrap: break-word; /* Ensure words break properly */
+    text-align: center; /* Center the text */
+}
+
+.sheer-text{
+    padding: 0px 15px !important;
+    color: var(--colour1) !important;
+}

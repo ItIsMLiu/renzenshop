@@ -1,71 +1,54 @@
 import React from 'react';
-import Project from './Project';
-import projects from '../projects.json'
+import { Container, Row, Col, Card } from "react-bootstrap";
+import Sheer from './Sheer';
+import sheers from '../sheers.json'
 import "../style/Products.css"
 import "../style/Global.css"
 
 function Products() {
   return (
     <>
-      <div className="mb-4">
-        <div className="genericHero productsImg container-fluid d-flex flex-column justify-content-center align-items-center">
-          <h1 className="col-12 fw-bold text-center">Products</h1>
-          <p className="col-12 fs-4 text-center"></p>
-        </div>
-      </div>
+      <Container fluid className="genericHero productsImg d-flex flex-column justify-content-center align-items-center text-center">
+        <h1>Products</h1>
+      </Container>
 
-      <div className="container-fluid allContent">
-        <div className="row align-items-center" >
-          <div className="container-fluid col-lg-2 col-md-12 col-sm-12 secTitleContain"><h2>Portfolio Gallery</h2></div>
-          <div className="container-fluid col-lg-10 col-md-12 col-sm-12 section-block">
-            <div className="container">
-              <div className="row">
-                <div className="card col-lg-12 col-md-12 col-sm-12">
-                  <h5 className="card-title">Description:</h5>
-                  <p className="card-text">Welcome to my work portfolio showcasing an array of webpage projects crafted with HTML, CSS, and JavaScript. This compilation encapsulates a diverse range of creations, from responsive and interactive websites to dynamic user interfaces. Each project emphasizes the fusion of clean HTML structure, aesthetically pleasing CSS design, and the functionality infused by JavaScript. From engaging landing pages to immersive web applications, this portfolio demonstrates my proficiency in leveraging these core web technologies to create compelling online experiences.</p>
-                </div>
-                <Project 
-                  title = {projects[0].title}
-                  deployed = {projects[0].deployed}
-                  repo = {projects[0].repo}
-                  image = {projects[0].image}
-                />
-                <Project 
-                  title = {projects[1].title}
-                  deployed = {projects[1].deployed}
-                  repo = {projects[1].repo}
-                  image = {projects[1].image}
-                />
-                <Project 
-                  title = {projects[2].title}
-                  deployed = {projects[2].deployed}
-                  repo = {projects[2].repo}
-                  image = {projects[2].image}
-                />
-                <Project 
-                  title = {projects[3].title}
-                  deployed = {projects[3].deployed}
-                  repo = {projects[3].repo}
-                  image = {projects[3].image}
-                />
-                <Project 
-                  title = {projects[4].title}
-                  deployed = {projects[4].deployed}
-                  repo = {projects[4].repo}
-                  image = {projects[4].image}
-                />
-                <Project 
-                  title = {projects[5].title}
-                  deployed = {projects[5].deployed}
-                  repo = {projects[5].repo}
-                  image = {projects[5].image}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+      <Container fluid className="py-5">
+
+        <Row className="products-row justify-content-center mx-auto">
+          <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
+            <Card>
+              <h2>Blockout Curtains</h2>
+            </Card>
+          </Col>
+  
+          {sheers.map((sheer, index) => (
+            <Sheer key={index} title={sheer.title} price={sheer.price} image={sheer.image} />
+          ))}
+
+          <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
+            <Card>
+              <h2>Light-Filtering Curtains</h2>
+            </Card>
+          </Col>
+  
+          {sheers.map((sheer, index) => (
+            <Sheer key={index} title={sheer.title} price={sheer.price} image={sheer.image} />
+          ))}
+
+          <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
+            <Card>
+              <h2>Sheer Curtains</h2>
+            </Card>
+          </Col>
+  
+          {sheers.map((sheer, index) => (
+            <Sheer key={index} title={sheer.title} price={sheer.price} image={sheer.image} />
+          ))}
+
+        </Row>
+
+      </Container>
+    </>  
   );
 }
 
