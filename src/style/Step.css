@@ -1,5 +1,7 @@
 .step-card {
-    height: 300px; /* Set a fixed height */
+    height: 100% !important; /* Make the image fill the card height */
+    width: 100%; /* Make the image fill the card width */
+    object-fit: cover; /* Ensure the image covers the entire space without distortion */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center content vertically */
@@ -14,11 +16,15 @@
     border-radius: 0px !important;
     filter: brightness(50%) !important;
     transition: all 0.5s ease-out !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
 }
 
 /* when image link is hovered, change property for img element */
-.step-image:hover {
-    .card-img {
+.step-card:hover {
+    img {
         filter: brightness(70%) !important;
     }
 }

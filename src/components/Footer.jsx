@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import "../style/Footer.css";
 import "../style/Global.css";
@@ -13,9 +14,9 @@ function Footer() {
                         <h5 className="fw-bold">RenZen's Tailored Curtains</h5>
                         <p className="text-muted">For a perfect fit and timeless style.</p>
                         <div className="d-inline-block">
-                            <Button variant="primary" href="mailto:renzenshop@outlook.com">
-                            Contact Now!
-                            </Button>
+                        <NavLink to="/renzenshop/contact" className="nav-link">
+                            <Button variant="primary">Contact Now!</Button>
+                        </NavLink>
                         </div>
                         <p className="text-muted pt-3 mb-0">&copy; 2025 - RenZen</p>
                     </Card>

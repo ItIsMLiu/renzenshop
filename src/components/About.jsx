@@ -27,7 +27,7 @@ function About() {
             <h2>Speak with us about your needs!</h2>
             <p>We usually respond within just a few hours, and always within 24 hours!</p>
                <NavLink to="/renzenshop/contact" className="nav-link">
-                <Button variant="primary">Contact Now!</Button>
+                <Button variant="primary">Contact Us</Button>
               </NavLink>
           </Card>
 
