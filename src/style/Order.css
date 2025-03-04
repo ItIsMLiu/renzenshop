@@ -1,37 +1,19 @@
-
     .orderImg {
         background-image: url(../assets/images/orderheroimg.jpg);
     }
 
-    svg {
-    margin-right: 5px !important; 
+    .custom-row {
+        width: 75%;
     }
 
-    #order .btn-primary {
-        background-color: var(--colour3) !important;
-        border: var(--colour3) !important;
-        border-radius: 0 !important;
-        position: relative !important;
-        bottom: 0px !important;
-        left: -30px !important;
-        --bs-btn-active-color: var(--colour3) !important;
-        --bs-btn-active-bg: var(--colour2) !important;
-        --bs-btn-active-border-color: var(--colour2) !important;
-    }
-
-    .orderBody {
-        width: 50% !important;
-    }
-
-    @media only screen and (max-width: 880px) {
-        .orderHero p {
-            width: 80% !important;
+    @media only screen and (max-width: 515px) {
+        .custom-row {
+            width: 88%;
         }
-        .orderBody {
-            width: 90% !important;
-        }
-        .nav-item .nav-link {
-            display: inline-block !important;
+    }
 
+    @media only screen and (max-width: 414px) {
+        .custom-row {
+            width: 95%;
         }
     }

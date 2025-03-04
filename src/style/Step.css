@@ -1,7 +1,39 @@
-#step a {
-    color: var(--colour2) !important;
+.step-card {
+    height: 300px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    overflow: hidden; /* Prevent content from overflowing */
+}
+  
+.step-image {
+    height: 100%; /* Make the image fill the card height */
+    width: 100%; /* Make the image fill the card width */
+    object-fit: cover; /* Ensure the image covers the entire space without distortion */
+    border-radius: 0px !important;
+    filter: brightness(50%) !important;
+    transition: all 0.5s ease-out !important;
 }
 
-#step a:hover {
-    text-decoration-color: var(--colour2)!important;
+/* when image link is hovered, change property for img element */
+.step-image:hover {
+    .card-img {
+        filter: brightness(70%) !important;
+    }
+}
+
+.step-title{
+    width: 100%;
+    padding: 5px !important;
+    color: var(--colour2) !important;
+    position: absolute;
+    word-wrap: break-word; /* Allow long words to break and wrap */
+    overflow-wrap: break-word; /* Ensure words break properly */
+    text-align: center; /* Center the text */
+}
+
+.step-text{
+    padding: 0px 15px !important;
+    color: var(--colour1) !important;
 }
