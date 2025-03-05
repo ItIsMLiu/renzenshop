@@ -10,3 +10,14 @@ footer {
 .footerCard p{
     color: var(--colour2) !important;
 }
+
+.footer-link {
+    color: var(--colour2) !important;
+    text-decoration: none !important;
+    width: max-content !important;
+    white-space: nowrap !important;
+}
+  
+.footer-link:hover {
+    transform: scale(1.08) !important;
+}

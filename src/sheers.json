@@ -1,42 +1,50 @@
 [
     {
         "id": 1,
-        "title": "Sheer 1",
-        "price": "£30 per m width",
+        "title": "Sei",
+        "price": "£35 per m width",
         "image1": "/images/sheer1-1.jpg",
         "image2": "/images/sheer1-2.jpg",
         "image3": "/images/sheer1-3.jpg",
         "image4": "/images/sheer1-4.jpg",
-        "description":"Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or light-filtering curtains for added light control and style."
+        "image5": "/images/sheer1-5.jpg",
+        "description": "Sei - meaning calm. \n \n Japandi, natural wood tone, cream sheer curtains. \n \n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
+        "comment": "35 奶油亚麻纱"
     },
     {
         "id": 2,
-        "title": "Sheer 2",
-        "price": "£30 per m width",
-        "image1": "/images/sheer1-1.jpg",
-        "image2": "/images/sheer1-2.jpg",
-        "image3": "/images/sheer1-3.jpg",
-        "image4": "/images/sheer1-4.jpg",
-        "description":"Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or light-filtering curtains for added light control and style."
+        "title": "Kiri",
+        "price": "£28 per m width",
+        "image1": "/images/sheer2-1.jpg",
+        "image2": "/images/sheer2-2.jpg",
+        "image3": "/images/sheer2-3.jpg",
+        "image4": "/images/sheer2-4.jpg",
+        "image5": "/images/sheer2-5.jpg",
+        "description": "Kiri - meaning fog/mist. \n \n Minimalist Modern, Plain Colour, Cat-Scratch-Resistant, White Sheer Curtains. \n \n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
+        "comment": "28 金刚纱"
     },
     {
         "id": 3,
-        "title": "Sheer 3",
-        "price": "£30 per m width",
-        "image1": "/images/sheer1-1.jpg",
-        "image2": "/images/sheer1-2.jpg",
-        "image3": "/images/sheer1-3.jpg",
-        "image4": "/images/sheer1-4.jpg",
-        "description":"Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or light-filtering curtains for added light control and style."
+        "title": "Himari",
+        "price": "£35 per m width",
+        "image1": "/images/sheer3-1.jpg",
+        "image2": "/images/sheer3-2.jpg",
+        "image3": "/images/sheer3-3.jpg",
+        "image4": "/images/sheer3-4.jpg",
+        "image5": "/images/sheer3-5.jpg",
+        "description":"Himari - meaning sunlight and warmth, symbolising soft sunlit diffusion.\n\n Checkered Cream Sheer Curtain. \n \n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
+        "comment": "35 镜面格子纱"
     },
     {
         "id": 4,
-        "title": "Sheer 4",
-        "price": "£30 per m width",
-        "image1": "/images/sheer1-1.jpg",
-        "image2": "/images/sheer1-2.jpg",
-        "image3": "/images/sheer1-3.jpg",
-        "image4": "/images/sheer1-4.jpg",
-        "description":"Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or light-filtering curtains for added light control and style."
+        "title": "Iki",
+        "price": "£35 per m width",
+        "image1": "/images/sheer4-1.jpg",
+        "image2": "/images/sheer4-2.jpg",
+        "image3": "/images/sheer4-3.jpg",
+        "image4": "/images/sheer4-4.jpg",
+        "image5": "/images/sheer4-5.jpg",
+        "description":"Iki - meaning refined simplicity.\n\n Japandi Minimalist Crinkled Texture White Sheer Curtains. \n \n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
+        "comment": "35 压皱纱"
     }
 ]

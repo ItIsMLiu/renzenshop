@@ -10,7 +10,7 @@ const Item = ({ image1, title, price, category, id }) => {
     <Col xs={6} sm={6} md={4} lg={4} xl={3} xxl={3} className='item-col'>
       <Card className="item-card d-flex flex-column" id="item">
         <Link to={`/renzenshop/item/${category}/${id}`} target="_blank" rel="noopener noreferrer">
-          <Card.Img src={image1} alt={`${title} image`} className="item-image" />
+          <Card.Img src={image1} alt={`${title} curtain image`} className="item-image" />
         </Link>
       </Card>
       <Card className="item-text">

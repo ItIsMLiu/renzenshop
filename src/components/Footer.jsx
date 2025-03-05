@@ -18,7 +18,15 @@ function Footer() {
                             <Button variant="primary">Contact Now!</Button>
                         </NavLink>
                         </div>
-                        <p className="text-muted pt-3 mb-0">&copy; 2025 - RenZen</p>
+                        <div className="justify-content-center d-flex flex-column flex-sm-row gap-3 py-3">
+                            <a href="https://www.instagram.com/renzenshop/" className="footer-link d-flex" target="blank">
+                                <i className="bi bi-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/people/RenZen-Shop/61550549634449/" target="blank" className="footer-link d-flex">
+                                <i className="bi bi-facebook"></i>
+                            </a>
+                        </div> 
+                        <p className="text-muted mb-0">&copy; 2025, RenZen</p>
                     </Card>
                 </Col>
             </Row>
