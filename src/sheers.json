@@ -3,28 +3,40 @@
         "id": 1,
         "title": "Sheer 1",
         "price": "£30 per m width",
-        "image": "../src/assets/images/step1img.jpg",
-        "link": ""
+        "image1": "/images/sheer1-1.jpg",
+        "image2": "/images/sheer1-2.jpg",
+        "image3": "/images/sheer1-3.jpg",
+        "image4": "/images/sheer1-4.jpg",
+        "description":"Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or light-filtering curtains for added light control and style."
     },
     {
         "id": 2,
         "title": "Sheer 2",
         "price": "£30 per m width",
-        "image": "../src/assets/images/step2img.jpg",
-        "link": ""
+        "image1": "/images/sheer1-1.jpg",
+        "image2": "/images/sheer1-2.jpg",
+        "image3": "/images/sheer1-3.jpg",
+        "image4": "/images/sheer1-4.jpg",
+        "description":"Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or light-filtering curtains for added light control and style."
     },
     {
         "id": 3,
         "title": "Sheer 3",
         "price": "£30 per m width",
-        "image": "../src/assets/images/step3img.jpg",
-        "link": ""
+        "image1": "/images/sheer1-1.jpg",
+        "image2": "/images/sheer1-2.jpg",
+        "image3": "/images/sheer1-3.jpg",
+        "image4": "/images/sheer1-4.jpg",
+        "description":"Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or light-filtering curtains for added light control and style."
     },
     {
         "id": 4,
         "title": "Sheer 4",
         "price": "£30 per m width",
-        "image": "../src/assets/images/step4img.jpg",
-        "link": ""
+        "image1": "/images/sheer1-1.jpg",
+        "image2": "/images/sheer1-2.jpg",
+        "image3": "/images/sheer1-3.jpg",
+        "image4": "/images/sheer1-4.jpg",
+        "description":"Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or light-filtering curtains for added light control and style."
     }
 ]

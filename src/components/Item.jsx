@@ -1,23 +1,24 @@
 import React from 'react';
-import { Card, Col, Row, Button } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
+import { Link } from 'react-router-dom'
 import "../style/Global.css";
 import "../style/Item.css";
 
 
-const Item = ({ image, title, price, link }) => {
+const Item = ({ image1, title, price, category, id }) => {
   return (
     <Col xs={6} sm={6} md={4} lg={4} xl={3} xxl={3} className='item-col'>
       <Card className="item-card d-flex flex-column" id="item">
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          <Card.Img src={image} alt={`${title} image`} className="item-image" />
-        </a>
+        <Link to={`/renzenshop/item/${category}/${id}`} target="_blank" rel="noopener noreferrer">
+          <Card.Img src={image1} alt={`${title} image`} className="item-image" />
+        </Link>
       </Card>
       <Card className="item-text">
-        <a href={link} target="_blank" rel="noopener noreferrer" className="custom-link mb-1">
+        <Link to={`/renzenshop/item/${category}/${id}`} target="_blank" rel="noopener noreferrer" className="custom-link mb-1">
           <h3 className='mb-0'>
             {title}
           </h3>
-        </a>
+        </Link>
         <p>
           {price}
         </p>

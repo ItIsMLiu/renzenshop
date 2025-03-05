@@ -23,8 +23,8 @@ function Products() {
             </Card>
           </Col>
   
-          {blockouts.map((blockout, index) => (
-            <Item key={index} link={blockout.link} title={blockout.title} price={blockout.price} image={blockout.image} />
+          {blockouts.map((blockout) => (
+            <Item key={blockout.id} id={blockout.id} category="blockouts" title={blockout.title} price={blockout.price} image1={blockout.image1} />
           ))}
 
           <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
@@ -33,8 +33,8 @@ function Products() {
             </Card>
           </Col>
   
-          {lightfilterings.map((lightfiltering, index) => (
-            <Item key={index} link={lightfiltering.link} title={lightfiltering.title} price={lightfiltering.price} image={lightfiltering.image} />
+          {lightfilterings.map((lightfiltering) => (
+            <Item key={lightfiltering.id} id={lightfiltering.id} category="lightfilterings" title={lightfiltering.title} price={lightfiltering.price} image1={lightfiltering.image1} />
           ))}
 
           <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
@@ -43,8 +43,8 @@ function Products() {
             </Card>
           </Col>
   
-          {sheers.map((sheer, index) => (
-            <Item key={index} link={sheer.link} title={sheer.title} price={sheer.price} image={sheer.image} />
+          {sheers.map((sheer) => (
+            <Item key={sheer.id} id={sheer.id} category="sheers" title={sheer.title} price={sheer.price} image1={sheer.image1} />
           ))}
 
         </Row>

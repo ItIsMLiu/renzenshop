@@ -1,5 +1,6 @@
 .item-card {
     overflow: hidden; /* Prevent content from overflowing */
+    border-radius: 0px !important;
   
 }
 
