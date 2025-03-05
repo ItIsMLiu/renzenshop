@@ -15,7 +15,6 @@
     object-fit: cover; /* Ensure the image covers the entire space without distortion */
     border-radius: 0px !important;
     filter: brightness(50%) !important;
-    transition: all 0.5s ease-out !important;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center content vertically */
@@ -26,6 +25,7 @@
 .step-card:hover {
     img {
         filter: brightness(70%) !important;
+        transition: all 0.5s ease-out !important;
     }
 }
 

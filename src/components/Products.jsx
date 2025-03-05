@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Card } from "react-bootstrap";
-import Sheer from './Sheer';
+import Item from './Item';
 import sheers from '../sheers.json'
+import blockouts from '../blockouts.json'
+import lightfilterings from '../lightfilterings.json'
 import "../style/Products.css"
 import "../style/Global.css"
 
@@ -21,8 +23,8 @@ function Products() {
             </Card>
           </Col>
   
-          {sheers.map((sheer, index) => (
-            <Sheer key={index} title={sheer.title} price={sheer.price} image={sheer.image} />
+          {blockouts.map((blockout, index) => (
+            <Item key={index} link={blockout.link} title={blockout.title} price={blockout.price} image={blockout.image} />
           ))}
 
           <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
@@ -31,8 +33,8 @@ function Products() {
             </Card>
           </Col>
   
-          {sheers.map((sheer, index) => (
-            <Sheer key={index} title={sheer.title} price={sheer.price} image={sheer.image} />
+          {lightfilterings.map((lightfiltering, index) => (
+            <Item key={index} link={lightfiltering.link} title={lightfiltering.title} price={lightfiltering.price} image={lightfiltering.image} />
           ))}
 
           <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
@@ -42,7 +44,7 @@ function Products() {
           </Col>
   
           {sheers.map((sheer, index) => (
-            <Sheer key={index} title={sheer.title} price={sheer.price} image={sheer.image} />
+            <Item key={index} link={sheer.link} title={sheer.title} price={sheer.price} image={sheer.image} />
           ))}
 
         </Row>

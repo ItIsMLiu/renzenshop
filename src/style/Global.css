@@ -64,15 +64,15 @@ button a:active {
 /* Links */
 .custom-link {
   color: var(--colour1) !important;
-  text-decoration: none;
-  width: max-content;
-  white-space: nowrap
+  text-decoration: none !important;
+  width: max-content !important;
+  white-space: nowrap !important;
 }
 
 .custom-link:hover {
   color: var(--colour3) !important;
   border-bottom: 1px solid var(--colour3) !important;
-  transform: scale(1.01);
+  transform: scale(1.01) !important;
 }
 
 .custom-link.active {

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Blockout 1",
+        "price": "£30 per m width",
+        "image": "../src/assets/images/step1img.jpg",
+        "link": "/renzenshop/guide"
+    },
+    {
+        "id": 2,
+        "title": "Blockout 2",
+        "price": "£30 per m width",
+        "image": "../src/assets/images/step2img.jpg",
+        "link": ""
+    },
+    {
+        "id": 3,
+        "title": "Blockout 3",
+        "price": "£30 per m width",
+        "image": "../src/assets/images/step3img.jpg",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "title": "Blockout 4",
+        "price": "£30 per m width",
+        "image": "../src/assets/images/step4img.jpg",
+        "link": ""
+    }
+]

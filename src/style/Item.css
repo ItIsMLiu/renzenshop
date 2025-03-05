@@ -1,17 +1,23 @@
-.sheer-card {
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+.item-card {
     overflow: hidden; /* Prevent content from overflowing */
+  
+}
+
+.item-card:hover {
+    img {
+        transform: scale(1.05);
+        transition: all 0.5s ease-out !important;
+    }
 }
   
-.sheer-image {
+.item-image {
     height: 100%; /* Make the image fill the card height */
     width: 100%; /* Make the image fill the card width */
     object-fit: cover; /* Ensure the image covers the entire space without distortion */
     border-radius: 0px !important;
 }
 
-.sheer-title{
+.item-title{
     width: 100%;
     padding: 5px !important;
     color: var(--colour2) !important;
@@ -21,7 +27,7 @@
     text-align: center; /* Center the text */
 }
 
-.sheer-text{
+.item-text{
     padding: 0px 15px !important;
     color: var(--colour1) !important;
 }
