@@ -21,6 +21,7 @@ function Products() {
             <Col  lg={8} md={8} sm={10} xs={12}>
               <Card>
                 <h2>Blockout Curtains</h2>
+                <p>Designed to block light completely, creating a dark and peaceful environment. Perfect for bedrooms, they ensure optimal privacy and help regulate room temperature. Their thick, durable fabric provides excellent insulation and soundproofing, making them an ideal choice for better sleep and comfort.</p>
               </Card>
             </Col>
             <Col lg={4} md={4} sm={2} xs={0}></Col>
@@ -34,7 +35,7 @@ function Products() {
             <Col  lg={8} md={8} sm={10} xs={12}>
               <Card>
                 <h2>Room-Darkening Curtains</h2>
-                <p>Blocks most light but not 100% like blackout curtains. Reduces glare while maintaining some natural brightness. Good for bedrooms, home offices, or media rooms where partial darkness is preferred.</p>
+                <p>Designed to reduce the amount of light entering a room, creating a cozy and inviting atmosphere. Perfect for bedrooms, home offices, or media rooms, they offer enhanced privacy while still allowing a little natural light to filter through. Their stylish, versatile design provides the perfect balance of comfort and light control, making them ideal for spaces where partial darkness is preferred.</p>
               </Card>
             </Col>
             <Col lg={4} md={4} sm={2} xs={0}></Col>
@@ -48,7 +49,7 @@ function Products() {
             <Col  lg={8} md={8} sm={10} xs={12}>
               <Card>
                 <h2>Sheer Curtains</h2>
-                <p>Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.</p>
+                <p>Our sheer curtains are light and airy, designed to allow soft natural light to filter through while maintaining privacy. Made from lightweight and breathable fabric, they create a serene atmosphere in any space. Perfect for living rooms, bedrooms, and dining areas, their versatile design complements various interior styles. For added light control and style, easily pair them with blockout or room-darkening curtains.</p>
               </Card>
             </Col>
             <Col lg={4} md={4} sm={2} xs={0}></Col>
