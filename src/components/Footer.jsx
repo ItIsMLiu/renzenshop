@@ -18,7 +18,7 @@ function Footer() {
                             <Button variant="primary">Contact Now!</Button>
                         </NavLink>
                         </div>
-                        <div className="justify-content-center d-flex flex-column flex-sm-row gap-3 py-3">
+                        <div className="justify-content-center d-flex flex-row gap-3 py-3">
                             <a href="https://www.instagram.com/renzenshop/" className="footer-link d-flex" target="blank">
                                 <i className="bi bi-instagram"></i>
                             </a>
