@@ -75,9 +75,16 @@ const ItemDetails = () => {
                             </span>
                         ))}
                     </p>
+                    <p><strong>Product ID: </strong> {item.type}{item.id}</p>
                     <p><strong>Price: </strong>{item.price} per m width</p>
                     <p><strong>Colour Options:</strong> {item.colourOption}</p>
+                    {item.blockoutPercent && (
+                        <p><strong>Blockout %: </strong>{item.blockoutPercent}</p>
+                    )}
                     <p><strong>Material: </strong> {item.material}</p>
+                    {item.weight && (
+                        <p><strong>Weight: </strong>{item.weight}</p>
+                    )}
                 </Card>
             </Col>
         </Row>

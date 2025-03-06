@@ -21,28 +21,28 @@ function Products() {
             <Col  lg={8} md={8} sm={10} xs={12}>
               <Card>
                 <h2>Blockout Curtains</h2>
-                <p>Designed to block light completely, creating a dark and peaceful environment. Perfect for bedrooms, they ensure optimal privacy and help regulate room temperature. Their thick, durable fabric provides excellent insulation and soundproofing, making them an ideal choice for better sleep and comfort.</p>
+                <p>Designed to block light completely, creating a dark and peaceful environment. Perfect for bedrooms, they ensure optimal privacy and help regulate room temperature. Their thick, durable fabric provides excellent insulation and soundproofing, making them an ideal choice for better sleep and comfort. If you want a balance of privacy, light control, and insulation, layering sheer + blockout curtains is a great option!</p>
               </Card>
             </Col>
             <Col lg={4} md={4} sm={2} xs={0}></Col>
           </Col>
   
           {blockouts.map((blockout) => (
-            <Item key={blockout.id} id={blockout.id} category="blockouts" title={blockout.title} price={blockout.price} image1={blockout.image1} colourOption={blockout.colourOption}/>
+            <Item key={blockout.id} id={blockout.id} category="blockouts" title={blockout.title} price={blockout.price} image1={blockout.image1} colourOption={blockout.colourOption} blockoutPercent={blockout.blockoutPercent}/>
           ))}
 
           <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
             <Col  lg={8} md={8} sm={10} xs={12}>
               <Card>
                 <h2>Room-Darkening Curtains</h2>
-                <p>Designed to reduce the amount of light entering a room, creating a cozy and inviting atmosphere. Perfect for bedrooms, home offices, or media rooms, they offer enhanced privacy while still allowing a little natural light to filter through. Their stylish, versatile design provides the perfect balance of comfort and light control, making them ideal for spaces where partial darkness is preferred.</p>
+                <p>Designed to reduce the amount of light entering a room, creating a cozy and inviting atmosphere. Perfect for bedrooms, home offices, or media rooms, they offer enhanced privacy while still allowing a little natural light to filter through. Their stylish, versatile design provides the perfect balance of comfort and light control, making them ideal for spaces where partial darkness is preferred. Layering sheer + room-darkening curtains is a popular choice.</p>
               </Card>
             </Col>
             <Col lg={4} md={4} sm={2} xs={0}></Col>
           </Col>
   
           {roomdarkenings.map((roomdarkening) => (
-            <Item key={roomdarkening.id} id={roomdarkening.id} category="roomdarkenings" title={roomdarkening.title} price={roomdarkening.price} image1={roomdarkening.image1} colourOption={roomdarkening.colourOption} />
+            <Item key={roomdarkening.id} id={roomdarkening.id} category="roomdarkenings" title={roomdarkening.title} price={roomdarkening.price} image1={roomdarkening.image1} colourOption={roomdarkening.colourOption} blockoutPercent={roomdarkening.blockoutPercent} />
           ))}
 
           <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>

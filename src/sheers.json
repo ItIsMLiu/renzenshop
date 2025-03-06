@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "type":"SR",
         "title": "Sei",
         "price": "£35",
         "image1": "/images/sheer1-1.jpg",
@@ -9,12 +10,13 @@
         "image4": "/images/sheer1-4.jpg",
         "image5": "/images/sheer1-5.jpg",
         "description": "Sei - meaning calm. \n \n Japandi, natural wood tone, cream sheer curtains. \n \n This curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas.",
-        "colourOption": "Cream Only",
+        "colourOption": "Cream",
         "material": "Polyester",
         "comment": "35 奶油亚麻纱"
     },
     {
         "id": 2,
+        "type":"SR",
         "title": "Kiri",
         "price": "£28",
         "image1": "/images/sheer2-1.jpg",
@@ -23,12 +25,13 @@
         "image4": "/images/sheer2-4.jpg",
         "image5": "/images/sheer2-5.jpg",
         "description": "Kiri - meaning fog/mist. \n \n Minimalist, Plain Colour, Cat-Scratch-Resistant, White Sheer Curtains. \n \n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White Only",
+        "colourOption": "White",
         "material": "Polyester",
         "comment": "28 金刚纱"
     },
     {
         "id": 3,
+        "type":"SR",
         "title": "Himari",
         "price": "£35",
         "image1": "/images/sheer3-1.jpg",
@@ -38,12 +41,13 @@
         "image5": "/images/sheer3-5.jpg",
         "image6": "/images/sheer3-6.jpg",
         "description":"Himari - meaning sunlight and warmth, symbolising soft sunlit diffusion.\n\n Checkered Cream Sheer Curtain. \n \n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White Only",
+        "colourOption": "White",
         "material": "Cotton",
         "comment": "35 镜面格子纱"
     },
     {
         "id": 4,
+        "type":"SR",
         "title": "Iki",
         "price": "£35",
         "image1": "/images/sheer4-1.jpg",
@@ -53,12 +57,13 @@
         "image5": "/images/sheer4-5.jpg",
         "image6": "/images/sheer4-6.jpg",
         "description":"Iki - meaning refined simplicity.\n\n Japandi Minimalist Crinkled Texture White Sheer Curtains. \n \n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White Only",
+        "colourOption": "White",
         "material": "Polyester",
         "comment": "35 压皱纱"
     },
     {
         "id": 5,
+        "type":"SR",
         "title": "Stria",
         "price": "£30",
         "image1": "/images/sheer5-1.jpg",
@@ -68,12 +73,13 @@
         "image5": "/images/sheer5-5.jpg",
         "image6": "/images/sheer5-6.jpg",
         "description":"Vertical Striped Pattern White Sheer Curtains \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White Only",
+        "colourOption": "White",
         "material": "Cotton",
         "comment": "30 百叶纱"
     },
     {
         "id": 6,
+        "type":"SR",
         "title": "Nanagi",
         "price": "£45",
         "image1": "/images/sheer6-1.jpg",
@@ -82,12 +88,13 @@
         "image4": "/images/sheer6-4.jpg",
         "image5": "/images/sheer6-5.jpg",
         "description":"Nana (soft, flowing) and Gi (branch/wood) \n\n Nanashi wood textured Sheer Curtains \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White or Cream",
+        "colourOption": "White",
         "material": "Polyester",
         "comment": "45 南枝纱"
     },
     {
         "id": 7,
+        "type":"SR",
         "title": "Mistique",
         "price": "£32",
         "image1": "/images/sheer7-1.jpg",
@@ -96,12 +103,13 @@
         "image4": "/images/sheer7-4.jpg",
         "image5": "/images/sheer7-5.jpg",
         "description":"Inspired by the soft, diffused light and minimalist elegance of Scandinavian design, offers privacy while maintaining brightness. \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White Only",
+        "colourOption": "White",
         "material": "Cotton",
         "comment": "32 幻影纱"
     },
     {
         "id": 8,
+        "type":"SR",
         "title": "Wabi",
         "price": "£39",
         "image1": "/images/sheer8-1.jpg",
@@ -110,12 +118,13 @@
         "image4": "/images/sheer8-4.jpg",
         "image5": "/images/sheer8-5.jpg",
         "description":"Wabi-Sabi Style Vertical Striped Imitation Linen Sheer Curtains. \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas.",
-        "colourOption": "Flax Colour Only",
+        "colourOption": "Flax",
         "material": "Cotton-linen",
         "comment": "39 仿麻纱"
     },
     {
         "id": 9,
+        "type":"SR",
         "title": "Herra",
         "price": "£25",
         "image1": "/images/sheer9-1.jpg",
@@ -124,12 +133,13 @@
         "image4": "/images/sheer9-4.jpg",
         "image5": "/images/sheer9-5.jpg",
         "description":"Herringbone Patterned Sheer Curtains. \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White Only",
+        "colourOption": "White",
         "material": "Polyester",
         "comment": "25 鱼骨纱"
     },
     {
         "id": 10,
+        "type":"SR",
         "title": "Lune",
         "price": "£38",
         "image1": "/images/sheer10-1.jpg",
@@ -139,12 +149,13 @@
         "image5": "/images/sheer10-5.jpg",
         "image6": "/images/sheer10-6.jpg",
         "description":"French Vintage Moon Branch Jacquard Sheer Curtains. \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White or Cream",
+        "colourOption": "White, Cream",
         "material": "Polyester",
         "comment": "38 月枝纱"
     },
     {
         "id": 11,
+        "type":"SR",
         "title": "Kusa",
         "price": "£35",
         "image1": "/images/sheer11-1.jpg",
@@ -153,12 +164,13 @@
         "image4": "/images/sheer11-4.jpg",
         "image5": "/images/sheer11-5.jpg",
         "description":"Wheat Textured Sheer Curtains. \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White Only",
+        "colourOption": "White",
         "material": "Polyester",
         "comment": "35 麦穗镜面纱"
     },
     {
         "id": 12,
+        "type":"SR",
         "title": "Sol",
         "price": "£35",
         "image1": "/images/sheer12-1.jpg",
@@ -167,7 +179,7 @@
         "image4": "/images/sheer12-4.jpg",
         "image5": "/images/sheer12-5.jpg",
         "description":"String cut-out patterned sheer curtains. \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
-        "colourOption": "White Only",
+        "colourOption": "White",
         "material": "Polyester",
         "comment": "35 和风纱"
     }
