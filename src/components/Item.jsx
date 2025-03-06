@@ -5,7 +5,7 @@ import "../style/Global.css";
 import "../style/Item.css";
 
 
-const Item = ({ image1, title, price, category, id }) => {
+const Item = ({ image1, title, price, category, id, colourOption }) => {
   return (
     <Col xs={6} sm={6} md={4} lg={4} xl={3} xxl={3} className='item-col'>
       <Card className="item-card d-flex flex-column" id="item">
@@ -19,8 +19,11 @@ const Item = ({ image1, title, price, category, id }) => {
             {title}
           </h3>
         </Link>
+        <p className='mb-0'>
+          {price} per m width
+        </p>
         <p>
-          {price}
+          {colourOption}
         </p>
       </Card>
     </Col>

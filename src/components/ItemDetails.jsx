@@ -2,14 +2,14 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import sheers from '../sheers.json';
 import blockouts from '../blockouts.json';
-import lightfilterings from '../lightfilterings.json';
+import roomdarkenings from '../roomdarkenings.json';
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "../style/Global.css";
 
 const categories = {
   blockouts,
   sheers,
-  lightfilterings
+  roomdarkenings
 };
 
 const ItemDetails = () => {
@@ -42,7 +42,7 @@ const ItemDetails = () => {
                 <Row className='py-4'>
                     <Card.Img src={item.image1} alt={`${item.title} curtain image`} />
                 </Row>
-                <Row>
+                <Row className='pb-4'>
                     <Col>
                         <Card.Img src={item.image2} alt={`${item.title} curtain image`} />
                     </Col>
@@ -50,7 +50,7 @@ const ItemDetails = () => {
                         <Card.Img src={item.image3} alt={`${item.title} curtain image`} />
                     </Col>
                 </Row>
-                <Row className='py-4'>
+                <Row className='pb-4'>
                     <Col>
                         <Card.Img src={item.image4} alt={`${item.title} curtain image`} />
                     </Col>
@@ -58,11 +58,15 @@ const ItemDetails = () => {
                         <Card.Img src={item.image5} alt={`${item.title} curtain image`} />
                     </Col>
                 </Row>
+                <Row className='pb-4'>
+                    {item.image6 && (
+                        <Card.Img src={item.image6} alt={`${item.title} curtain image`} />
+                    )}
+                </Row>
             </Col>
             
             <Col xs={12} sm={10} md={6} lg={6} xl={6} xxl={5} className="details-text-col">
                 <Card className="text-start py-4">
-                    <p>{item.price}</p>
                     <p>
                         {item.description.split('\n').map((line, index) => (
                             <span key={index}>
@@ -71,6 +75,9 @@ const ItemDetails = () => {
                             </span>
                         ))}
                     </p>
+                    <p><strong>Price: </strong>{item.price} per m width</p>
+                    <p><strong>Colour Options:</strong> {item.colourOption}</p>
+                    <p><strong>Material: </strong> {item.material}</p>
                 </Card>
             </Col>
         </Row>
