@@ -23,7 +23,7 @@ const Item = ({ image1, title, price, category, id, colourProducts }) => {
         <p className='mb-0'>
           {price} per m width
         </p>
-        <div className="d-flex flex-wrap gap-2 mt-2">
+        <div className="d-flex flex-wrap gap-2 mt-2 mb-3">
           {colors.map((color, index) => (
             <span
               key={index}
