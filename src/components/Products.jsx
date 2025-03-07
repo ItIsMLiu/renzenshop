@@ -28,7 +28,7 @@ function Products() {
           </Col>
   
           {blockouts.map((blockout) => (
-            <Item key={blockout.id} id={blockout.id} category="blockouts" title={blockout.title} price={blockout.price} image1={blockout.image1} colourOption={blockout.colourOption} blockoutPercent={blockout.blockoutPercent}/>
+            <Item key={blockout.id} id={blockout.id} category="blockouts" title={blockout.title} price={blockout.price} image1={blockout.image1} colourProducts={blockout.colourProducts} blockoutPercent={blockout.blockoutPercent}/>
           ))}
 
           <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
@@ -42,7 +42,7 @@ function Products() {
           </Col>
   
           {roomdarkenings.map((roomdarkening) => (
-            <Item key={roomdarkening.id} id={roomdarkening.id} category="roomdarkenings" title={roomdarkening.title} price={roomdarkening.price} image1={roomdarkening.image1} colourOption={roomdarkening.colourOption} blockoutPercent={roomdarkening.blockoutPercent} />
+            <Item key={roomdarkening.id} id={roomdarkening.id} category="roomdarkenings" title={roomdarkening.title} price={roomdarkening.price} image1={roomdarkening.image1} colourProducts={roomdarkening.colourProducts} blockoutPercent={roomdarkening.blockoutPercent} />
           ))}
 
           <Col className="pt-5 pb-1" lg={12} md={12} sm={12} xs={12}>
@@ -56,7 +56,7 @@ function Products() {
           </Col>
   
           {sheers.map((sheer) => (
-            <Item key={sheer.id} id={sheer.id} category="sheers" title={sheer.title} price={sheer.price} image1={sheer.image1} colourOption={sheer.colourOption}  />
+            <Item key={sheer.id} id={sheer.id} category="sheers" title={sheer.title} price={sheer.price} image1={sheer.image1} colourProducts={sheer.colourProducts}  />
           ))}
 
         </Row>

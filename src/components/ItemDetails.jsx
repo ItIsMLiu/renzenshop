@@ -63,6 +63,11 @@ const ItemDetails = () => {
                         <Card.Img src={item.image6} alt={`${item.title} curtain image`} />
                     )}
                 </Row>
+                <Row className='pb-4'>
+                    {item.image7 && (
+                        <Card.Img src={item.image7} alt={`${item.title} curtain image`} />
+                    )}
+                </Row>
             </Col>
             
             <Col xs={12} sm={10} md={6} lg={6} xl={6} xxl={5} className="details-text-col">
@@ -77,7 +82,7 @@ const ItemDetails = () => {
                     </p>
                     <p><strong>Product ID: </strong> {item.type}{item.id}</p>
                     <p><strong>Price: </strong>{item.price} per m width</p>
-                    <p><strong>Colour Options:</strong> {item.colourOption}</p>
+                    <p><strong>Colour Options:</strong> {item.colourDetails}</p>
                     {item.blockoutPercent && (
                         <p><strong>Blockout %: </strong>{item.blockoutPercent}</p>
                     )}
