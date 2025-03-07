@@ -88,7 +88,7 @@ const ItemDetails = () => {
                     )}
                     <p><strong>Material: </strong> {item.material}</p>
                     {item.weight && (
-                        <p><strong>Weight: </strong>{item.weight}</p>
+                        <p><strong>Weight: </strong>{item.weight} per metre.</p>
                     )}
                 </Card>
             </Col>
