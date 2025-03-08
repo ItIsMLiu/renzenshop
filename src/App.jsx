@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop.jsx'; 
 
 import Contact from "./components/Contact.jsx"
 import Header from "./components/Header.jsx"
@@ -18,6 +19,7 @@ import "./style/Global.css"
 function App() {
   return (
   <Router>
+    <ScrollToTop />
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
