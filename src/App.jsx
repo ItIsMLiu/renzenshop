@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Contact from "./components/Contact.jsx"
 import Header from "./components/Header.jsx"
@@ -17,16 +17,16 @@ import "./style/Global.css"
 
 function App() {
   return (
-  <Router>
+  <Router basename="/renzenshop">
     <Header />
     <Routes>
-      <Route path="/renzenshop" element={<Home />} />
-      <Route path="/renzenshop/order/*" element={<Order />} />
-      <Route path="/renzenshop/products/*" element={<Products />} />
-      <Route path="/renzenshop/guide/*" element={<Guide />} />
-      <Route path="/renzenshop/contact/*" element={<Contact />} />
-      <Route path="/renzenshop/about/*" element={<About />} />
-      <Route path="/renzenshop/item/:category/:id" element={<ItemDetails />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/order/*" element={<Order />} />
+      <Route path="/products/*" element={<Products />} />
+      <Route path="/guide/*" element={<Guide />} />
+      <Route path="/contact/*" element={<Contact />} />
+      <Route path="/about/*" element={<About />} />
+      <Route path="/item/:category/:id" element={<ItemDetails />} />
     </Routes>
     <Footer />
   </Router>
