@@ -17,7 +17,7 @@ import "./style/Global.css"
 
 function App() {
   return (
-  <Router>
+  <Router basename="/renzenshop">
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />

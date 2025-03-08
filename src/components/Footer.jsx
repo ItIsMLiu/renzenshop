@@ -14,7 +14,7 @@ function Footer() {
                         <h5 className="fw-bold">RenZen's Tailored Curtains</h5>
                         <p className="text-muted">For a perfect fit and timeless style.</p>
                         <div className="d-inline-block">
-                        <NavLink to="/renzenshop/contact" className="nav-link">
+                        <NavLink to="/contact" className="nav-link">
                             <Button variant="primary">Contact Now!</Button>
                         </NavLink>
                         </div>

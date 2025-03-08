@@ -26,7 +26,7 @@ function About() {
           <Card className="text-center py-4">
             <h2>Speak with us about your needs!</h2>
             <p>We usually respond within just a few hours, and always within 24 hours!</p>
-               <NavLink to="/renzenshop/contact" className="nav-link">
+               <NavLink to="/contact" className="nav-link">
                 <Button variant="primary">Contact Us</Button>
               </NavLink>
           </Card>

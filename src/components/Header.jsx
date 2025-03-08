@@ -15,7 +15,7 @@ function Header() {
     <Navbar expand="lg" sticky="top" expanded={isOpen} className="custom-nav">
       <Container fluid>
         {/* Brand Logo */}
-        <Navbar.Brand as={NavLink} to="/renzenshop">
+        <Navbar.Brand as={NavLink} to="/">
           <img src={logo} alt="RenZen Logo" className="logo-button" />
         </Navbar.Brand>
         
@@ -35,7 +35,7 @@ function Header() {
             {["/", "/order", "/products", "/guide", "/contact", "/about"].map((path, index) => (
               <Nav.Link 
                 as={NavLink} 
-                to={`/renzenshop${path}`} 
+                to={`${path}`} 
                 end 
                 onClick={() => setIsOpen(false)}
                 className="mx-2"

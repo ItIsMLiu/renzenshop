@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Step 1 \n Get a Quote",
         "description": "Send us the measurements and pictures of your windows, and we'll provide you with a quote.",
-        "image": "../src/assets/images/step1img.jpg",
+        "image": "./src/assets/images/step1img.jpg",
         "link1": "mailto:renzenshop@outlook.com",
         "buttonText1": "Email Now for Quotes"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "title": "Step 2 \n Your Preferences",
         "description": "Option 1: Book a Visit (Bristol only) \n1. See material samples - we can bring large format samples to you).\n 2. Discuss your preferences:\n • Fabric \n  • Track/Rail \n • Curtain Header\n  • Curtain width and length.\n 3. Take measurements. \n \n Option 2: DIY (If you are not in Bristol or simply want to DIY)\n 1. Choose a fabric by browsing pictures on our Products page. \n 2. Use our Design Guide to determine your preferences. \n 3. Take window measurements yourself (See what measurements we need in Design Guide.)",
-        "image": "../src/assets/images/step2img.jpg",
+        "image": "./src/assets/images/step2img.jpg",
         "link1": "/renzenshop/products",
         "buttonText1": "View Products",
         "link2": "/renzenshop/guide",
@@ -21,12 +21,12 @@
         "id": 3,
         "title": "Step 3 \n Payment",
         "description": "Once your requirements is finalised, secure your order with payment.",
-        "image": "../src/assets/images/step3img.jpg"
+        "image": "./src/assets/images/step3img.jpg"
     },
     {
         "id": 4,
         "title": "Step 4 \n Installation Within 4 Weeks",
         "description": "Your custom curtains will be installed (by us or yourself) within 4 weeks of securing your order.",
-        "image": "../src/assets/images/step4img.jpg"
+        "image": "./src/assets/images/step4img.jpg"
     }
 ]
