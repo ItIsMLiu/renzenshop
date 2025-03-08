@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import sheers from '../sheers.json';
 import blockouts from '../blockouts.json';
 import roomdarkenings from '../roomdarkenings.json';
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "../style/Global.css";
 
 const categories = {
@@ -90,6 +90,17 @@ const ItemDetails = () => {
                     {item.weight && (
                         <p><strong>Weight: </strong>{item.weight} per metre.</p>
                     )}
+                    <div className="d-inline-block">
+                        <Button variant="primary" className="my-4 me-4" href="/renzenshop/order">
+                            Order Steps
+                        </Button>                        
+                        <Button variant="primary" className="my-4 me-4" href="/renzenshop/guide">
+                            Design Guide
+                        </Button>
+                        <Button variant="primary" className="my-4 me-4" href="/renzenshop/contact">
+                            Contact Us
+                        </Button>
+                    </div>
                 </Card>
             </Col>
         </Row>
