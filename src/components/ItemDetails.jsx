@@ -91,13 +91,13 @@ const ItemDetails = () => {
                         <p><strong>Weight: </strong>{item.weight} per metre.</p>
                     )}
                     <div className="d-inline-block">
-                        <Button variant="primary" className="my-4 me-4" href="/renzenshop/order">
+                        <Button variant="primary" className="my-4 me-4" href="/order">
                             Order Steps
                         </Button>                        
-                        <Button variant="primary" className="my-4 me-4" href="/renzenshop/guide">
+                        <Button variant="primary" className="my-4 me-4" href="/guide">
                             Design Guide
                         </Button>
-                        <Button variant="primary" className="my-4 me-4" href="/renzenshop/contact">
+                        <Button variant="primary" className="my-4 me-4" href="/contact">
                             Contact Us
                         </Button>
                     </div>
