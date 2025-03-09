@@ -17,7 +17,7 @@ function Order() {
           <Col lg={11} md={11} sm={11} xs={11}>
             <Card className="text-center px-3 pb-5">
               <h2>How to Order Your Perfect Curtains</h2>
-              <p>Follow these simple steps to bring your favorite curtains home:</p>
+              <p>Follow these simple steps to bring your favourite curtains home:</p>
             </Card>
           </Col>
         </Row>
