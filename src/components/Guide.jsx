@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Form, Button, CardImg } from "react-bootstrap";
 
 import "../style/Guide.css"
 import "../style/Global.css"
@@ -15,9 +15,10 @@ function Guide() {
 
     <Container fluid className="py-5">
       <Row className="justify-content-center">
-        <Col xs={12} sm={10} md={6} lg={6} xl={6} xxl={5}>
+        <Col xs={12} sm={11} md={10} lg={10} xl={9} xxl={8}>
           <Card className="py-4 px-3">
             <h2>1. Fabric</h2>
+            <Card.Img variant="top" src="/images/FabricOptions.jpg" className="rounded-0 mb-3"/>
             <p>Choose the right fabric for your needs:</p>
             <ol type="A">
               <li><strong>Blockout Fabric</strong>
@@ -72,6 +73,7 @@ function Guide() {
 
           <Card className="py-4 px-3 mt-4">
             <h2>3. Heading Style</h2>
+            <Card.Img variant="top" src="/images/HeadingStyle.jpg" className="rounded-0 mb-3"/>
             <ol type="A">
               <li><strong>Triple Pinch Pleat</strong> (Created with metal 4-Prong drapery hooks, suitable for tracks or poles with rings)</li>
               <li><strong>Double Pinch Pleat</strong> (Fixed folds, hung using adjustable plastic hooks, suitable for tracks or poles with rings)</li>
