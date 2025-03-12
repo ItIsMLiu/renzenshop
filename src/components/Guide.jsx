@@ -61,7 +61,7 @@ function Guide() {
           <Card className="py-4 px-3">
             <h2>2. Track or Pole</h2>
             <p>Do you have an existing track or pole? Your track or pole can be either ceiling-mounted or wall-mounted.</p>
-            <p>Note: We currently do not sell tracks or poles, so you will need to prepare your own before ordering our curtains.</p>
+            <p>Note: We currently do not sell tracks or poles, so you will need to prepare your own separately.</p>
             <ol type="A">
               <li><strong>Pole only</strong></li>
               <li><strong>Pole with rings</strong></li>
@@ -73,10 +73,10 @@ function Guide() {
           <Card className="py-4 px-3 mt-4">
             <h2>3. Heading Style</h2>
             <ol type="A">
-              <li><strong>Triple Pinch Pleat</strong> (Created with metal 4-Prong drapery hooks, suitable for tracks (2.C.) or poles with rings(2.B.))</li>
-              <li><strong>Double Pinch Pleat</strong> (Fixed folds, hung using adjustable plastic hooks, suitable for tracks (2.C.) or poles with rings(2.B.))</li>
-              <li><strong>Eyelets</strong> (for poles only (2.A.))</li>
-              <li><strong>Ripple</strong> (for special ripple tracks only (2.D.))</li>
+              <li><strong>Triple Pinch Pleat</strong> (Created with metal 4-Prong drapery hooks, suitable for tracks or poles with rings)</li>
+              <li><strong>Double Pinch Pleat</strong> (Fixed folds, hung using adjustable plastic hooks, suitable for tracks or poles with rings)</li>
+              <li><strong>Eyelets</strong> (for poles only)</li>
+              <li><strong>Ripple</strong> (for special ripple tracks only)</li>
             </ol>
           </Card>
 
