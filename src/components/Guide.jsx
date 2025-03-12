@@ -18,7 +18,7 @@ function Guide() {
         <Col xs={12} sm={11} md={10} lg={10} xl={9} xxl={8}>
           <Card className="py-4 px-3">
             <h2>1. Fabric</h2>
-            <Card.Img variant="top" src="/images/FabricOptions.jpg" className="rounded-0 mb-3"/>
+            <Card.Img variant="top" src="/images/FabricOptions.jpg" className="rounded-0 mb-3" alt="Fabric Options - Blockout, Room-darkening and Sheer"/>
             <p>Choose the right fabric for your needs:</p>
             <ol type="A">
               <li><strong>Blockout Fabric</strong>
@@ -61,6 +61,7 @@ function Guide() {
 
           <Card className="py-4 px-3">
             <h2>2. Track or Pole</h2>
+            <Card.Img variant="top" src="/images/TrackPole.jpg" className="rounded-0 mb-3" alt="Four Curtain hanging Options - Pole only, pole with rings, track only and ripple track."/>
             <p>Do you have an existing track or pole? Your track or pole can be either ceiling-mounted or wall-mounted.</p>
             <p>Note: We currently do not sell tracks or poles, so you will need to prepare your own separately.</p>
             <ol type="A">
@@ -73,7 +74,7 @@ function Guide() {
 
           <Card className="py-4 px-3 mt-4">
             <h2>3. Heading Style</h2>
-            <Card.Img variant="top" src="/images/HeadingStyle.jpg" className="rounded-0 mb-3"/>
+            <Card.Img variant="top" src="/images/HeadingStyle.jpg" className="rounded-0 mb-3" alt="Four Curtain Heading Style Options - Triple Pinch Pleat, Double Pinch Pleat, Eyelets and Ripple"/>
             <ol type="A">
               <li><strong>Triple Pinch Pleat</strong> (Created with metal 4-Prong drapery hooks, suitable for tracks or poles with rings)</li>
               <li><strong>Double Pinch Pleat</strong> (Fixed folds, hung using adjustable plastic hooks, suitable for tracks or poles with rings)</li>
@@ -84,6 +85,7 @@ function Guide() {
 
           <Card className="py-4 px-3 mt-4">
             <h2>4. Single or Double Panel</h2>
+            <Card.Img variant="top" src="/images/SingleDoublePanel.jpg" className="rounded-0 mb-3" alt="Curtain Panel Options - Single or double panel"/>
             <ol type="A">
               <li><strong>Single Panel</strong> (Best when there is room on only one side of your window)</li>
               <li><strong>Double Panel</strong> (Ideal when there is room on both sides of your window)</li>
@@ -92,14 +94,16 @@ function Guide() {
 
           <Card className="py-4 px-3 mt-4">
             <h2>5. Width Options</h2>
+            <Card.Img variant="top" src="/images/WidthOptions.jpg" className="rounded-0 mb-3" alt="Curtain Width Options - Full wall or cover window only"/>
             <ol type="A">
               <li><strong>Full wall width</strong> (Ideal when the window spans most of the wall, creating a grand look)</li>
-              <li><strong>To either side of the window</strong> (Suitable for smaller windows, ensuring balanced coverage)</li>
+              <li><strong>Cover window only</strong> (Suitable for smaller windows, ensuring balanced coverage)</li>
             </ol>  
           </Card>
           
           <Card className="py-4 px-3 mt-4">
             <h2>6. Length Options</h2>
+            <Card.Img variant="top" src="/images/LengthOptions.jpg" className="rounded-0 mb-3" alt=" Curtain Length Options - 6 length options"/>
             <ol type="A">
               <li>Just touching the <strong>top of the sill</strong></li>
               <li>Just <strong>covering the sill</strong></li>
