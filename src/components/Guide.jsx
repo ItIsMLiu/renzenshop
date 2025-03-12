@@ -74,7 +74,22 @@ function Guide() {
 
           <Card className="py-4 px-3 mt-4">
             <h2>3. Heading Style</h2>
-            <Card.Img variant="top" src="/images/HeadingStyle.jpg" className="rounded-0 mb-3" alt="Four Curtain Heading Style Options - Triple Pinch Pleat, Double Pinch Pleat, Eyelets and Ripple"/>
+            <Row className="g-0 d-flex flex-column flex-md-row">
+              <Col md={6}>
+                <Card.Img
+                  src="/images/HeadingStyle-1.jpg"
+                  className="rounded-0 img-fluid pe-2"
+                  alt="2 Curtain Heading Style Options - Triple Pinch Pleat and Double Pinch Pleat"
+                />
+              </Col>
+              <Col md={6}>
+                <Card.Img
+                  src="/images/HeadingStyle-2.jpg"
+                  className="rounded-0 img-fluid pe-2"
+                  alt="2 Curtain Heading Style Options - Eyelets and Ripple"
+                />
+              </Col>
+            </Row>
             <ol type="A">
               <li><strong>Triple Pinch Pleat</strong> (Created with metal 4-Prong drapery hooks, suitable for tracks or poles with rings)</li>
               <li><strong>Double Pinch Pleat</strong> (Fixed folds, hung using adjustable plastic hooks, suitable for tracks or poles with rings)</li>
