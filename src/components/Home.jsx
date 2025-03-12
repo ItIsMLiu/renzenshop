@@ -11,9 +11,9 @@ function Home() {
       <p>Made to Measure</p>
       <h1>Premium Curtains</h1>
       <p>Style your space, frame your view.</p>
-      <NavLink to="/contact" end>
+      <NavLink to="/products" end>
         <Button variant="primary" size="lg" id="herogit">
-          Get in Touch!
+          View Products Now!
         </Button>
       </NavLink>
     </Container>
