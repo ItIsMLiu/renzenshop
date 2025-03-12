@@ -13,7 +13,7 @@ function Home() {
       <p>Style your space, frame your view.</p>
       <NavLink to="/products" end>
         <Button variant="primary" size="lg" id="herogit">
-          View Products Now!
+          View Products
         </Button>
       </NavLink>
     </Container>

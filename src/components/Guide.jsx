@@ -8,7 +8,7 @@ function Guide() {
   return (
   <>
     <Container fluid className="genericHero guideImg d-flex flex-column justify-content-center align-items-center text-center">
-      <h1>Design Guide</h1>
+      <h1>Buying Guide</h1>
       <p>Find the perfect curtains to match your style with our expert guide.</p>
     </Container>
 
@@ -17,7 +17,7 @@ function Guide() {
         <Col lg={5} md={8} sm={11}>
           {/* Subtitle */}
           <Card className="py-4 px-3">
-            <h2>Explore a variety of designs, fabrics, and tips to choose the ideal curtains for your space.</h2>
+            <h2>Measure</h2>
           </Card>
 
           <Card className="py-4 px-3 mt-4">
