@@ -61,14 +61,30 @@ function Guide() {
 
           <Card className="py-4 px-3">
             <h2>2. Track or Pole</h2>
-            <Card.Img variant="top" src="/images/TrackPole.jpg" className="rounded-0 mb-3" alt="Four Curtain hanging Options - Pole only, pole with rings, track only and ripple track."/>
             <p>Do you have an existing track or pole? Your track or pole can be either ceiling-mounted or wall-mounted.</p>
             <p>Note: We currently do not sell tracks or poles, so you will need to prepare your own separately.</p>
+            <Row className="g-0 d-flex flex-column flex-md-row">
+              <Col md={6}>
+                <Card.Img
+                  src="/images/TrackPole-1.jpg"
+                  className="rounded-0 img-fluid pe-2"
+                  alt="Two Curtain hanging Options - Pole only and pole with rings."
+                />
+              </Col>
+              <Col md={6}>
+                <Card.Img
+                  src="/images/TrackPole-2.jpg"
+                  className="rounded-0 img-fluid pe-2"
+                  alt="Two Curtain hanging Options - Standard track and ripple track."
+                />
+              </Col>
+            </Row>
+
             <ol type="A">
               <li><strong>Pole only</strong></li>
               <li><strong>Pole with rings</strong></li>
-              <li><strong>Track only</strong></li>
-              <li><strong>Ripple track (with fixed distance sliders)</strong></li>
+              <li><strong>Normal Track (distance between sliders are adjustable)</strong></li>
+              <li><strong>Ripple track (with fixed-distance sliders)</strong></li>
             </ol>
           </Card>
 
@@ -265,6 +281,14 @@ function Guide() {
 
               <Button variant="primary" type="submit">Submit</Button>
             </Form>
+          </Card>
+
+          <Card className="py-4 px-3 mt-4">
+            <h2>This is too much to handle?</h2>
+            <p>No worries! We can come to your place to help you decide and measure! </p>
+            <NavLink to="/contact" className="nav-link">
+              <Button variant="primary">Book a Visit</Button>
+            </NavLink>
           </Card>
 
         </Col>
