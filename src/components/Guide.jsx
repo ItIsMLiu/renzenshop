@@ -292,13 +292,13 @@ function Guide() {
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">7.A. Pole length or track length measurement (Required):</Form.Label>
-                <Form.Control type="text" name="Width" required />
+                <Form.Control type="text" name="7.A.Width" required />
                 <Form.Text className="text-muted">See above guide.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">7.B. Curtain length measurement (Required):</Form.Label>
-                <Form.Control type="text" name="Length" required />
+                <Form.Control type="text" name="7.B. Length" required />
                 <Form.Text className="text-muted">See above guide.</Form.Text>
               </Form.Group>
 
