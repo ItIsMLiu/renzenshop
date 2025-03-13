@@ -210,11 +210,16 @@ function Guide() {
             <h2>Tell us your preferences now to get a detailed quote:</h2>
             <p>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
 
-            <Form action="https://getform.io/f/axowwyrb" method="POST">
+            <Form action="https://getform.io/f/axowwyrb" method="POST" enctype="multipart/form-data">
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">What room/window is this curtain for? (Required):</Form.Label>
                 <Form.Control type="text" name="Room" required />
                 <Form.Text className="text-muted">For purpose of reference, especially if you are ordering for more than one window.</Form.Text>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">Upload a photo of the window:</Form.Label>
+                <Form.Control type="file" name="photo" />
               </Form.Group>
 
               <Form.Group className="mb-3">
@@ -227,6 +232,8 @@ function Guide() {
                   <option value="1.A & 1.C. Blockout & Sheer">1.A & 1.C Blockout & Sheer</option>
                   <option value="1.B & 1.C. Room-Darkening & Sheer">1.B & 1.C Room-Darkening & Sheer</option>
                 </Form.Select>
+                <Form.Label>Chosen product name and colour (Required):</Form.Label>
+                <Form.Control type="text" name="Product Name & Colour" required />
               </Form.Group>
 
               <Form.Group className="mb-3">
