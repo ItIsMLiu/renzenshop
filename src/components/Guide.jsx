@@ -86,6 +86,21 @@ function Guide() {
               <li><strong>Normal Track (distance between sliders are adjustable)</strong></li>
               <li><strong>Ripple track (with fixed-distance sliders)</strong></li>
             </ol>
+
+            <h3>How to Position a Pole?</h3>
+            <Card.Img variant="top" src="/images/PolePosition.jpg" className="rounded-0 mb-3" alt="how to position a curtain pole?"/>
+            <ul>
+              <li><strong>Position 1:</strong> The pole should be positioned at least 15 cm (6 inches) above the top of the window. Recommended for shorter-length curtains, specifically Length Options 6.A, 6.B, 6.C, and 6.D (shown below).</li>
+              <li><strong>Position 2:</strong> The pole should be positioned two-thirds of the way up from the top of the window. Recommended for longer-length curtains, specifically Length Options 6.E and 6.F. (shown below).</li>
+            </ul>
+            <h3>How to Position a Track?</h3>
+            <p>The ideal distance for curtain tracks from the wall depends on the type of curtains and the space needed for smooth movement. Here are some general guidelines:</p>
+            <ul>
+              <li><strong>Single Curtain Track:</strong> 5-10 cm (2-4 inches) from the wall.</li>
+              <li><strong>Double Curtain Track:</strong> 10-15 cm (4-6 inches) from the wall.</li>
+              <li><strong>Thick or Blackout Curtains:</strong> 15 cm (6 inches) or more to allow proper stacking.</li>
+            </ul>
+            <p>If there are window handles or radiators, ensure the track is far enough to prevent obstruction.</p>
           </Card>
 
           <Card className="py-4 px-3 mt-4">
