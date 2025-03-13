@@ -163,6 +163,15 @@ function Guide() {
           <Card className="py-4 px-3 mt-4">
             <h2>7. How to measure?</h2>
             <Card.Img variant="top" src="/images/HowToMeasure.jpg" className="rounded-0 mb-3" alt="Measurement instruction"/>
+            <h3>7.A. Pole Length or Track Length</h3>
+            <h3>7.B. Chosen Curtain Length</h3>
+            <p>Measure from underside of pole or sliders to the below options: </p>
+            <ul>
+              <li>7.B.1. to the top of the sill</li>
+              <li>7.B.2. to the bottom of the sill</li>
+              <li>7.B.3. to the top of the radiator</li>
+              <li>7.B.4. to the top of the floor</li>
+            </ul>
           </Card>
 
           <Card className="py-4 px-3 mt-4">
@@ -177,7 +186,7 @@ function Guide() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">1. What Fabric would you like for this room?</Form.Label>
+                <Form.Label className="fw-bold">1. What fabric would you like for this room?</Form.Label>
                 <Form.Select name="1.fabric" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="1.A. Blockout">1.A. Blockout</option>
@@ -212,7 +221,7 @@ function Guide() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">4. Single or Double Panel?</Form.Label>
+                <Form.Label className="fw-bold">4. Single or double panel?</Form.Label>
                 <Form.Select name="4.Single or Double Panel" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="4.A. Single">4.A. Single</option>
@@ -243,13 +252,13 @@ function Guide() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">7.A. Width Measurement (Required):</Form.Label>
+                <Form.Label className="fw-bold">7.A. Pole length or track length measurement (Required):</Form.Label>
                 <Form.Control type="text" name="Width" required />
                 <Form.Text className="text-muted">See above guide.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">7.B. Length Measurement (Required):</Form.Label>
+                <Form.Label className="fw-bold">7.B. Curtain length measurement (Required):</Form.Label>
                 <Form.Control type="text" name="Length" required />
                 <Form.Text className="text-muted">See above guide.</Form.Text>
               </Form.Group>
