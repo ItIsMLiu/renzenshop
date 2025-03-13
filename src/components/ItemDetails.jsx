@@ -92,10 +92,10 @@ const ItemDetails = () => {
                     )}
                     <div className="d-inline-block">
                         <Button variant="primary" className="my-4 me-4" href="/order">
-                            Order Steps
+                            Ordering Steps
                         </Button>                        
                         <Button variant="primary" className="my-4 me-4" href="/guide">
-                            Design Guide
+                            Buying Guide
                         </Button>
                         <Button variant="primary" className="my-4 me-4" href="/contact">
                             Contact Us

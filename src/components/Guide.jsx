@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Container, Row, Col, Card, Form, Button, CardImg } from "react-bootstrap";
+import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 
 import "../style/Guide.css"
 import "../style/Global.css"
@@ -17,7 +17,7 @@ function Guide() {
       <Row className="justify-content-center">
         <Col xs={12} sm={11} md={10} lg={10} xl={9} xxl={8}>
           <Card className="py-4 px-3">
-            <h2>1. Fabric</h2>
+            <h2>1. Choose your Fabric</h2>
             <Card.Img variant="top" src="/images/FabricOptions.jpg" className="rounded-0 mb-3" alt="Fabric Options - Blockout, Room-darkening and Sheer"/>
             <p>Choose the right fabric for your needs:</p>
             <ol type="A">
@@ -123,10 +123,148 @@ function Guide() {
               <li>Just touching the <strong>top of the sill</strong></li>
               <li>Just <strong>covering the sill</strong></li>
               <li>Just <strong>above the radiator</strong></li>
-              <li>15mm <strong>below the sill</strong></li>
+              <li>15cm <strong>below the sill</strong></li>
               <li>Just <strong>above the floor (for ease of cleaning)</strong></li>
               <li><strong>Pooling on floor</strong> (for a more luxurious, dramatic effect)</li>
             </ol>
+          </Card>
+
+          <Card className="py-4 px-3 mt-4">
+            <h2>7. How to measure?</h2>
+            <Card.Img variant="top" src="/images/HowToMeasure.jpg" className="rounded-0 mb-3" alt="Measurement instruction"/>
+          </Card>
+
+          <Card className="py-4 px-3 mt-4">
+            <h2>Tell us your preferences now to get a detailed quote:</h2>
+            <p>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
+
+            <Form action="https://getform.io/f/axowwyrb" method="POST">
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">What room/window is this curtain for? (Required):</Form.Label>
+                <Form.Control type="text" name="Room" required />
+                <Form.Text className="text-muted">For purpose of reference, especially if you are ordering for more than one window.</Form.Text>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">1. What Fabric would you like for this room?</Form.Label>
+                <Form.Select name="1.fabric" required>
+                  <option value="" disabled selected>Select an option (Required)</option>
+                  <option value="1.A. Blockout">1.A. Blockout</option>
+                  <option value="1.B. Room-Darkening">1.B. Room-Darkening</option>
+                  <option value="1.C. Sheer">1.C. Sheer</option>
+                  <option value="1.A & 1.C. Blockout & Sheer">1.A & 1.C Blockout & Sheer</option>
+                  <option value="1.B & 1.C. Room-Darkening & Sheer">1.B & 1.C Room-Darkening & Sheer</option>
+                </Form.Select>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">2. Do you have a track or a pole?</Form.Label>
+                <Form.Select name="2.Track or Pole" required>
+                  <option value="" disabled selected>Select an option (Required)</option>
+                  <option value="None">No, and I would like some advice</option>
+                  <option value="2.A. Pole only">2.A. Pole only</option>
+                  <option value="2.B. Pole with rings">2.B. Pole with rings</option>
+                  <option value="2.C. Standard track">2.C. Standard track</option>
+                  <option value="2.D. Ripple track">2.D. Ripple track</option>
+                </Form.Select>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">3. What heading style would you like?</Form.Label>
+                <Form.Select name="3.Heading Style" required>
+                  <option value="" disabled selected>Select an option (Required)</option>
+                  <option value="3.A. Triple Pinch Pleat">3.A. Triple Pinch Pleat</option>
+                  <option value="3.B. Double Pinch Pleat">3.B. Double Pinch Pleat</option>
+                  <option value="3.C. Eyelets">3.C. Eyelets</option>
+                  <option value="3.D. Ripple">3.D. Ripple</option>
+                </Form.Select>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">4. Single or Double Panel?</Form.Label>
+                <Form.Select name="4.Single or Double Panel" required>
+                  <option value="" disabled selected>Select an option (Required)</option>
+                  <option value="4.A. Single">4.A. Single</option>
+                  <option value="4.B. Double">4.B. Double</option>
+                </Form.Select>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">5. Preferred width coverage?</Form.Label>
+                <Form.Select name="5.Width" required>
+                  <option value="" disabled selected>Select an option (Required)</option>
+                  <option value="5.A. Full wall width">5.A. Full wall width</option>
+                  <option value="5.B. Cover window only">5.B. Cover window only</option>
+                </Form.Select>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">6. Preferred length coverage?</Form.Label>
+                <Form.Select name="6.Length" required>
+                  <option value="" disabled selected>Select an option (Required)</option>
+                  <option value="6.A. Just touching top of sill">6.A. Just touching top of sill</option>
+                  <option value="6.B. Just covering sill">6.B. Just covering sill</option>
+                  <option value="6.C. Just above radiator">6.C. Just above radiator</option>
+                  <option value="6.D. 15cm below sill">6.D. 15cm below sill</option>
+                  <option value="6.E. Just above floor">6.E. Just above floor</option>
+                  <option value="6.F. Pooling on floor">6.F. Pooling on floor</option>
+                </Form.Select>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">7.A. Width Measurement (Required):</Form.Label>
+                <Form.Control type="text" name="Width" required />
+                <Form.Text className="text-muted">See above guide.</Form.Text>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">7.B. Length Measurement (Required):</Form.Label>
+                <Form.Control type="text" name="Length" required />
+                <Form.Text className="text-muted">See above guide.</Form.Text>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">Do you need us to visit your place for measurements?</Form.Label>
+                <Form.Select name="Measurement?" required>
+                  <option value="" disabled selected>Select an option (Required)</option>
+                  <option value="No">No</option>
+                  <option value="Yes">Yes</option>
+                </Form.Select>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">Do you need us to do the installation?</Form.Label>
+                <Form.Select name="Installation?" required>
+                  <option value="" disabled selected>Select an option (Required)</option>
+                  <option value="No">No</option>
+                  <option value="Yes">Yes</option>
+                </Form.Select>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">Postcode (Required):</Form.Label>
+                <Form.Control type="text" name="Postcode" required />
+                <Form.Text className="text-muted">For measurement, installation or delivery.</Form.Text>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">Name (Required):</Form.Label>
+                <Form.Control type="text" name="name" required />
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">Email Address (Required):</Form.Label>
+                <Form.Control type="email" name="email" aria-describedby="emailHelp" required />
+                <Form.Text className="text-muted">We'll never share your email.</Form.Text>
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="fw-bold">Message (Optional):</Form.Label>
+                <Form.Control as="textarea" name="message" rows={3} />
+              </Form.Group>
+
+              <Button variant="primary" type="submit">Submit</Button>
+            </Form>
           </Card>
 
         </Col>
