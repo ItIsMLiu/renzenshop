@@ -165,17 +165,17 @@ function Guide() {
             <h2>6. Length Options</h2>
             <Card.Img variant="top" src="/images/LengthOptions.jpg" className="rounded-0 mb-3" alt=" Curtain Length Options - 6 length options"/>
             <ListGroup variant="flush" className="no-border">
-              <ListGroup.Item><strong>6.A.</strong> Just touching the <strong>top of the sill</strong>
+              <ListGroup.Item><strong>6.A. Drop to Sill</strong> - 1cm above of the sill
               </ListGroup.Item>
-              <ListGroup.Item><strong>6.B.</strong> Just <strong>covering the sill</strong>
+              <ListGroup.Item><strong>6.B. Drop at Sill</strong> - 1cm below the sill
               </ListGroup.Item>
-              <ListGroup.Item><strong>6.C.</strong> Just <strong>above the radiator</strong>
+              <ListGroup.Item><strong>6.C. Drop to Radiator</strong> - 1cm above the radiator
               </ListGroup.Item>
-              <ListGroup.Item><strong>6.D.</strong> 15cm <strong>below the sill</strong>
+              <ListGroup.Item><strong>6.D. Drop Below Sill</strong> - 15cm below the sill
               </ListGroup.Item>
-              <ListGroup.Item><strong>6.E.</strong> Just <strong>above the floor (for ease of cleaning)</strong>
+              <ListGroup.Item><strong>6.E. Drop to Floor</strong> - 1cm above the floor (for ease of cleaning)
               </ListGroup.Item>
-              <ListGroup.Item><strong>6.F.</strong> <strong>Pooling on floor</strong> (for a more luxurious, dramatic effect)
+              <ListGroup.Item><strong>6.F. Pooling on Floor</strong> - adding 10-15cm to the drop (for a more luxurious, dramatic effect)
               </ListGroup.Item>
             </ListGroup>
           </Card>
@@ -274,12 +274,12 @@ function Guide() {
                 <Form.Label className="fw-bold">6. Preferred length coverage?</Form.Label>
                 <Form.Select name="6.Length" required>
                   <option value="" disabled selected>Select an option (Required)</option>
-                  <option value="6.A. Just touching top of sill">6.A. Just touching top of sill</option>
-                  <option value="6.B. Just covering sill">6.B. Just covering sill</option>
-                  <option value="6.C. Just above radiator">6.C. Just above radiator</option>
-                  <option value="6.D. 15cm below sill">6.D. 15cm below sill</option>
-                  <option value="6.E. Just above floor">6.E. Just above floor</option>
-                  <option value="6.F. Pooling on floor">6.F. Pooling on floor</option>
+                  <option value="6.A. 1cm above of sill">6.A. Drop to Sill (1cm above of sill)</option>
+                  <option value="6.B. 1cm below the sill">6.B. Drop at Sill (1cm below sill)</option>
+                  <option value="6.C. 1cm above radiator">6.C. Drop to Radiator (1cm above radiator)</option>
+                  <option value="6.D. 15cm below sill">6.D. Drop Below Sill (15cm below sill)</option>
+                  <option value="6.E. 1cm above floor">6.E. Drop to Floor (1cm above floor)</option>
+                  <option value="6.F. Pooling on floor">6.F. Pooling on floor (adding 10-15cm)</option>
                 </Form.Select>
               </Form.Group>
 
