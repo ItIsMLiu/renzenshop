@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Form, Button, ListGroup } from "react-bootstrap";
 
 import "../style/Guide.css"
 import "../style/Global.css"
@@ -20,8 +20,8 @@ function Guide() {
             <h2>1. Choose your Fabric</h2>
             <Card.Img variant="top" src="/images/FabricOptions.jpg" className="rounded-0 mb-3" alt="Fabric Options - Blockout, Room-darkening and Sheer"/>
             <p>Choose the right fabric for your needs:</p>
-            <ol type="A">
-              <li><strong>Blockout Fabric</strong>
+            <ListGroup variant="flush" className="no-border">
+              <ListGroup.Item><strong>1.A. Blockout Fabric</strong>
                 <ul>
                   <li>Blocks 80% - 100% of light</li>
                   <li>Thick, durable, and long-lasting</li>
@@ -30,9 +30,9 @@ function Guide() {
                   <li>Ideal for bedrooms, TV rooms, and projector rooms</li>
                   <li>Can be layered with sheer curtains for flexibility</li>
                 </ul>
-              </li>
-              <br></br>
-              <li><strong>Room-Darkening Fabric</strong>
+              </ListGroup.Item>
+
+              <ListGroup.Item><strong>1.B. Room-Darkening Fabric</strong>
                 <ul>
                   <li>Block 60% - 80% of light</li>
                   <li>Darkens the room without completely blocking light</li>
@@ -41,9 +41,9 @@ function Guide() {
                   <li>Suitable for bedrooms, dining rooms, living rooms, and home offices</li>
                   <li>Can be layered with sheer curtains for versatility</li>
                 </ul>
-              </li>
-              <br></br>
-              <li><strong>Sheer Fabric</strong>
+              </ListGroup.Item>
+
+              <ListGroup.Item><strong>1.C. Sheer Fabric</strong>
                 <ul>
                   <li>Softly filters natural light</li>
                   <li>Creates an airy and elegant look</li>
@@ -52,8 +52,9 @@ function Guide() {
                   <li>Ideal for living rooms, dining areas, and layered window treatments</li>
                   <li>Can be paired with blockout or room-darkening curtains for added privacy and light control</li>
                 </ul>
-              </li>
-            </ol> 
+              </ListGroup.Item>
+            </ListGroup>
+            
             <NavLink to="/products" className="nav-link">
               <Button variant="primary" className='ms-3 my-4' >View Fabrics</Button>
             </NavLink>
@@ -80,20 +81,25 @@ function Guide() {
               </Col>
             </Row>
 
-            <ol type="A">
-              <li><strong>Pole only</strong></li>
-              <li><strong>Pole with rings</strong></li>
-              <li><strong>Normal Track (distance between sliders are adjustable)</strong></li>
-              <li><strong>Ripple track (with fixed-distance sliders)</strong></li>
-            </ol>
+            <ListGroup variant="flush" className="no-border">
+              <ListGroup.Item><strong>2.A. Pole only</strong>
+              </ListGroup.Item>
+              <ListGroup.Item><strong>2.B. Pole with rings</strong>
+              </ListGroup.Item>
+              <ListGroup.Item><strong>2.C. Normal Track</strong> (distance between sliders are adjustable)
+              </ListGroup.Item>
+              <ListGroup.Item><strong>2.D. Ripple track</strong> (with fixed-distance sliders)
+              </ListGroup.Item>
+            </ListGroup>
 
-            <h3>How to Position a Pole?</h3>
+            <h3 className='pt-4'>How to Position a Pole?</h3>
             <Card.Img variant="top" src="/images/PolePosition.jpg" className="rounded-0 mb-3" alt="how to position a curtain pole?"/>
             <ul>
               <li><strong>Position 1:</strong> The pole should be positioned at least 15 cm (6 inches) above the top of the window. Recommended for shorter-length curtains, specifically Length Options 6.A, 6.B, 6.C, and 6.D (shown below).</li>
               <li><strong>Position 2:</strong> The pole should be positioned two-thirds of the way up from the top of the window. Recommended for longer-length curtains, specifically Length Options 6.E and 6.F. (shown below).</li>
             </ul>
-            <h3>How to Position a Track?</h3>
+
+            <h3 className='pt-4'>How to Position a Track?</h3>
             <p>The ideal distance for curtain tracks from the wall depends on the type of curtains and the space needed for smooth movement. Here are some general guidelines:</p>
             <ul>
               <li><strong>Single Curtain Track:</strong> 5-10 cm (2-4 inches) from the wall.</li>
@@ -121,57 +127,83 @@ function Guide() {
                 />
               </Col>
             </Row>
-            <ol type="A">
-              <li><strong>Triple Pinch Pleat</strong> (Created with metal 4-Prong drapery hooks, suitable for tracks or poles with rings)</li>
-              <li><strong>Double Pinch Pleat</strong> (Fixed folds, hung using adjustable plastic hooks, suitable for tracks or poles with rings)</li>
-              <li><strong>Eyelets</strong> (for poles only)</li>
-              <li><strong>Ripple</strong> (for special ripple tracks only)</li>
-            </ol>
+            <ListGroup variant="flush" className="no-border">
+              <ListGroup.Item><strong>3.A. Triple Pinch Pleat</strong> (Created with metal 4-Prong drapery hooks, suitable for tracks or poles with rings)
+              </ListGroup.Item>
+              <ListGroup.Item><strong>3.B. Double Pinch Pleat</strong> (Fixed folds, hung using adjustable plastic hooks, suitable for tracks or poles with rings)
+              </ListGroup.Item>
+              <ListGroup.Item><strong>3.C. Eyelets</strong> (for poles only)
+              </ListGroup.Item>
+              <ListGroup.Item><strong>3.D. Ripple</strong> (for special ripple tracks only)
+              </ListGroup.Item>
+            </ListGroup>
           </Card>
 
           <Card className="py-4 px-3 mt-4">
             <h2>4. Single or Double Panel</h2>
             <Card.Img variant="top" src="/images/SingleDoublePanel.jpg" className="rounded-0 mb-3" alt="Curtain Panel Options - Single or double panel"/>
-            <ol type="A">
-              <li><strong>Single Panel</strong> (Best when there is room on only one side of your window)</li>
-              <li><strong>Double Panel</strong> (Ideal when there is room on both sides of your window)</li>
-            </ol>             
+            <ListGroup variant="flush" className="no-border">
+              <ListGroup.Item><strong>4.A. Single Panel</strong> (Best when there is room on only one side of your window)
+              </ListGroup.Item>
+              <ListGroup.Item><strong>4.B. Double Panel</strong> (Ideal when there is room on both sides of your window)
+              </ListGroup.Item>
+            </ListGroup>            
           </Card>
 
           <Card className="py-4 px-3 mt-4">
             <h2>5. Width Options</h2>
             <Card.Img variant="top" src="/images/WidthOptions.jpg" className="rounded-0 mb-3" alt="Curtain Width Options - Full wall or cover window only"/>
-            <ol type="A">
-              <li><strong>Full wall width</strong> (Ideal when the window spans most of the wall, creating a grand look)</li>
-              <li><strong>Cover window only</strong> (Suitable for smaller windows, ensuring balanced coverage)</li>
-            </ol>  
+            <ListGroup variant="flush" className="no-border">
+              <ListGroup.Item><strong>5.A. Full wall width</strong> (Ideal when the window spans most of the wall, creating a grand look)
+              </ListGroup.Item>
+              <ListGroup.Item><strong>5.B. Cover window only</strong> (Suitable for smaller windows, ensuring balanced coverage)
+              </ListGroup.Item>
+            </ListGroup> 
           </Card>
           
           <Card className="py-4 px-3 mt-4">
             <h2>6. Length Options</h2>
             <Card.Img variant="top" src="/images/LengthOptions.jpg" className="rounded-0 mb-3" alt=" Curtain Length Options - 6 length options"/>
-            <ol type="A">
-              <li>Just touching the <strong>top of the sill</strong></li>
-              <li>Just <strong>covering the sill</strong></li>
-              <li>Just <strong>above the radiator</strong></li>
-              <li>15cm <strong>below the sill</strong></li>
-              <li>Just <strong>above the floor (for ease of cleaning)</strong></li>
-              <li><strong>Pooling on floor</strong> (for a more luxurious, dramatic effect)</li>
-            </ol>
+            <ListGroup variant="flush" className="no-border">
+              <ListGroup.Item><strong>6.A.</strong> Just touching the <strong>top of the sill</strong>
+              </ListGroup.Item>
+              <ListGroup.Item><strong>6.B.</strong> Just <strong>covering the sill</strong>
+              </ListGroup.Item>
+              <ListGroup.Item><strong>6.C.</strong> Just <strong>above the radiator</strong>
+              </ListGroup.Item>
+              <ListGroup.Item><strong>6.D.</strong> 15cm <strong>below the sill</strong>
+              </ListGroup.Item>
+              <ListGroup.Item><strong>6.E.</strong> Just <strong>above the floor (for ease of cleaning)</strong>
+              </ListGroup.Item>
+              <ListGroup.Item><strong>6.F.</strong> <strong>Pooling on floor</strong> (for a more luxurious, dramatic effect)
+              </ListGroup.Item>
+            </ListGroup>
           </Card>
 
           <Card className="py-4 px-3 mt-4">
             <h2>7. How to measure?</h2>
             <Card.Img variant="top" src="/images/HowToMeasure.jpg" className="rounded-0 mb-3" alt="Measurement instruction"/>
-            <h3>7.A. Pole Length or Track Length</h3>
-            <h3>7.B. Chosen Curtain Length</h3>
-            <p>Measure from underside of pole or sliders to the below options: </p>
-            <ul>
-              <li>7.B.1. to the top of the sill</li>
-              <li>7.B.2. to the bottom of the sill</li>
-              <li>7.B.3. to the top of the radiator</li>
-              <li>7.B.4. to the top of the floor</li>
-            </ul>
+            <ListGroup variant="flush" className="no-border">
+              <ListGroup.Item><strong>7.A. Pole Length or Track Length</strong>
+              </ListGroup.Item>
+              <ListGroup.Item><strong>7.B. Chosen Curtain Length</strong>
+                <ListGroup variant="flush" className="no-border">
+                  <p className='pb-0 mb-0'>Measure from underside of pole or sliders to the below options:</p>
+                  <ListGroup.Item>
+                    <strong>7.B.1.</strong> to the top of the sill
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    <strong>7.B.2.</strong> to the bottom of the sill
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    <strong>7.B.3.</strong> to the top of the radiator
+                  </ListGroup.Item>
+                  <ListGroup.Item>
+                    <strong>7.B.4.</strong> to the top of the floor
+                  </ListGroup.Item>
+                </ListGroup>
+              </ListGroup.Item>
+            </ListGroup>
           </Card>
 
           <Card className="py-4 px-3 mt-4">
