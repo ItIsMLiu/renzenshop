@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, Form, Button, ListGroup } from "react-bootst
 
 import "../style/Guide.css"
 import "../style/Global.css"
+import { QuoteForm } from './QuoteForm';
 
 function Guide() {
   return (
@@ -206,10 +207,11 @@ function Guide() {
             </ListGroup>
           </Card>
 
-          <Card className="py-5 px-5 my-5 mx-5 guideFormCard">
-            <h2 className='px-5 text-center'>Tell us your preferences now to get a detailed quote:</h2>
-            <p className='px-5 pb-5 text-center'>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
-
+          <Card className="py-5 px-md-5 px-sm-3 my-5 mx-md-5 mx-sm-3 guideFormCard" id='quoteForm'>
+            <h2 className='px-md-5 px-sm-3 text-center'>Tell us your preferences now to get a detailed quote:</h2>
+            <p className='px-md-5 px-sm-3 pb-5 text-center'>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
+            <QuoteForm/>
+{/* 
             <Form action="https://getform.io/f/axowwyrb" method="POST" enctype="multipart/form-data" className='guideForm pb-5 px-5 '>
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">What room/window is this curtain for? </Form.Label>
@@ -344,6 +346,7 @@ function Guide() {
 
               <Button variant="primary" type="submit">Submit</Button>
             </Form>
+*/}
           </Card>
 
           <Card className="py-4 px-3 mt-4 text-center">

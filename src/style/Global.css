@@ -126,3 +126,7 @@ z-index: 2;
   padding: 10px !important;
   border: none !important;
 }
+
+html {
+  scroll-padding-top: 160px; /* Adjust based on your navbar height */
+}
