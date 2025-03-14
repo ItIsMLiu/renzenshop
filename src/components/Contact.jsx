@@ -20,7 +20,7 @@ function Contact() {
             <h2>Contact Form</h2>
             <p>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
 
-            <Form action="https://getform.io/f/axowwyrb" method="POST">
+            <Form action="https://getform.io/f/axowwyrb" method="POST" enctype="multipart/form-data">
               <Form.Floating className="mb-3">
                 <Form.Control
                   id="floatingInputCustom"
