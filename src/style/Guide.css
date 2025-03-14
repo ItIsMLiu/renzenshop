@@ -24,7 +24,6 @@
   border-radius: 0px !important;
   border: none !important;
   background-color: white !important;
-  color: grey !important;
 }
 
 .guideInputBox:focus {
@@ -37,4 +36,23 @@
   border-color: var(--colour3) !important; /* Change border color */
   box-shadow: 0 0 5px var(--colour3) !important; /* Change glow color */
   outline: none !important;
+}
+
+.guideInputBox:-webkit-autofill {
+  background-color: #fff !important;  /* Change to white */
+  color: #333 !important;  /* Change text color */
+  box-shadow: 0 0 0px 1000px #fff inset !important;  /* Force background change */
+}
+
+.guideInputBox:-webkit-autofill::first-line {
+  color: #333 !important;  /* Ensures first-line text color stays correct */
+}
+
+.guideInputBox::placeholder {
+  color: lightgray !important;
+  opacity: 1; /* Ensures full visibility */
+}
+
+select:invalid {
+  color: lightgray;
 }

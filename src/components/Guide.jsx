@@ -212,19 +212,19 @@ function Guide() {
 
             <Form action="https://getform.io/f/axowwyrb" method="POST" enctype="multipart/form-data" className='guideForm pb-5 px-5 '>
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">What room/window is this curtain for? (Required):</Form.Label>
-                <Form.Control className='guideInputBox' type="text" name="Room" required />
+                <Form.Label className="fw-bold">What room/window is this curtain for? </Form.Label>
+                <Form.Control className='guideInputBox' type="text" name="Room" required placeholder="(Required)"/>
                 <Form.Text className=" text-muted">For purpose of reference, especially if you are ordering for more than one window.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">Upload a photo of the window:</Form.Label>
-                <Form.Control className='guideInputBox' type="file" name="photo" />
+                <Form.Label className="fw-bold">Upload a photo of the window (Optional):</Form.Label>
+                <Form.Control className='guideInputBox' type="file" name="Photo" />
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">1. What fabric would you like for this room?</Form.Label>
-                <Form.Select className='guideSelectBox' name="1.fabric" required>
+                <Form.Select className='guideSelectBox' name="1.Fabric" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="1.A. Blockout">1.A. Blockout</option>
                   <option value="1.B. Room-Darkening">1.B. Room-Darkening</option>
@@ -232,8 +232,8 @@ function Guide() {
                   <option value="1.A & 1.C. Blockout & Sheer">1.A & 1.C Blockout & Sheer</option>
                   <option value="1.B & 1.C. Room-Darkening & Sheer">1.B & 1.C Room-Darkening & Sheer</option>
                 </Form.Select>
-                <Form.Label className="fw-bold">Chosen product name and colour (Required):</Form.Label>
-                <Form.Control className='guideInputBox' type="text" name="Product Name & Colour" required />
+                <Form.Label className="fw-bold">Chosen product name and colour: </Form.Label>
+                <Form.Control className='guideInputBox' type="text" name="Product Name & Colour" required placeholder="(Required)"/>
               </Form.Group>
 
               <Form.Group className="mb-3">
@@ -291,14 +291,14 @@ function Guide() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">7.A. Pole length or track length measurement (Required):</Form.Label>
-                <Form.Control className='guideInputBox' type="text" name="7.A.Width" required />
+                <Form.Label className="fw-bold">7.A. Pole length or track length measurement (in centimeter): </Form.Label>
+                <Form.Control className='guideInputBox' type="text" name="7.A.Width" required placeholder="(Required)"/>
                 <Form.Text className=" text-muted">See above guide.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">7.B. Curtain length measurement (Required):</Form.Label>
-                <Form.Control className='guideInputBox' type="text" name="7.B. Length" required />
+                <Form.Label className="fw-bold">7.B. Curtain length measurement (in centimeter):</Form.Label>
+                <Form.Control className='guideInputBox' type="text" name="7.B. Length" required placeholder="(Required)"/>
                 <Form.Text className=" text-muted">See above guide.</Form.Text>
               </Form.Group>
 
@@ -321,25 +321,25 @@ function Guide() {
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">Postcode (Required):</Form.Label>
-                <Form.Control className='guideInputBox' type="text" name="Postcode" required />
+                <Form.Label className="fw-bold">Postcode: </Form.Label>
+                <Form.Control className='guideInputBox' type="text" name="Postcode" required placeholder="(Required)"/>
                 <Form.Text className="text-muted">For measurement, installation or delivery.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">Name (Required):</Form.Label>
-                <Form.Control className='guideInputBox' type="text" name="name" required />
+                <Form.Label className="fw-bold">Name: </Form.Label>
+                <Form.Control className='guideInputBox' type="text" name="Name" required placeholder="(Required)"/>
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">Email Address (Required):</Form.Label>
-                <Form.Control className='guideInputBox' type="email" name="email" aria-describedby="emailHelp" required />
+                <Form.Label className="fw-bold">Email Address: </Form.Label>
+                <Form.Control className='guideInputBox' type="email" name="Email" aria-describedby="emailHelp" required placeholder="(Required)"/>
                 <Form.Text className="text-muted">We'll never share your email.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label className="fw-bold">Message (Optional):</Form.Label>
-                <Form.Control className='guideInputBox' as="textarea" name="message" rows={3} />
+                <Form.Label className="fw-bold">Message:</Form.Label>
+                <Form.Control className='guideInputBox' as="textarea" name="Message" rows={3} placeholder="(Optional)"/>
               </Form.Group>
 
               <Button variant="primary" type="submit">Submit</Button>
