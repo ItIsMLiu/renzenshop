@@ -349,8 +349,8 @@ function Guide() {
 */}
           </Card>
 
-          <Card className="py-4 px-3 mt-4 text-center">
-            <h2>This is too much to handle?</h2>
+          <Card className="py-5 px-3 mt-4 text-center">
+            <h2>If the above guide is too much to handle...</h2>
             <p>No worries! We can come to your place to help you decide and measure! </p>
             <NavLink to="/contact" className="nav-link">
               <Button variant="primary">Book a Visit</Button>

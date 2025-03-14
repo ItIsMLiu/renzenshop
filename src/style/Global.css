@@ -127,9 +127,5 @@ z-index: 2;
   border: none !important;
 }
 
-#quoteForm {
-  scroll-padding-top: 150px; /* Adjust based on your navbar height */
-}
-
 
 
