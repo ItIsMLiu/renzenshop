@@ -21,23 +21,52 @@ function Contact() {
             <p>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
 
             <Form action="https://getform.io/f/axowwyrb" method="POST">
-              <Form.Group className="mb-3">
-                <Form.Label>Name:</Form.Label>
-                <Form.Control className='contactInputBox' type="text" name="name" required />
-              </Form.Group>
+              <Form.Floating className="mb-3">
+                <Form.Control
+                  id="floatingInputCustom"
+                  type="text"
+                  className='contactInputBox'
+                  placeholder="name"
+                  name="Name"
+                  required
+                  style={{ height: '60px' }}
+                />
+                <label htmlFor="floatingInputCustom">Name:</label>
+              </Form.Floating>
 
-              <Form.Group className="mb-3">
-                <Form.Label>Email Address:</Form.Label>
-                <Form.Control className='contactInputBox' type="email" name="email" aria-describedby="emailHelp" required />
+              <Form.Floating className="mb-3">
+                <Form.Control
+                  id="floatingInputCustom"
+                  type="email"
+                  placeholder="name@example.com"
+                  className='contactInputBox'
+                  name="Email"
+                  required
+                  style={{ height: '60px' }}
+                />
+                <label htmlFor="floatingInputCustom">Email address:</label>
                 <Form.Text className="text-muted">We'll never share your email.</Form.Text>
-              </Form.Group>
+              </Form.Floating>
+
+              <Form.Floating className="mb-3">
+                <Form.Control
+                  id="floatingInputCustom"
+                  className='contactInputBox'
+                  as="textarea"
+                  placeholder="Message"
+                  name="Message"
+                  required
+                  style={{ height: '200px' }}
+                />
+                <label htmlFor="floatingInputCustom">Message:</label>
+              </Form.Floating>
 
               <Form.Group className="mb-3">
-                <Form.Label>Message:</Form.Label>
-                <Form.Control className='contactInputBox' as="textarea" name="message" rows={3} required />
+                <Form.Label>Optional - upload photos of your windows:</Form.Label>
+                <Form.Control className='contactInputBox' type="file" name="Photos" multiple/>
               </Form.Group>
 
-              <Button variant="primary" type="submit">Submit</Button>
+              <Button variant="primary" type="submit">Send</Button>
             </Form>
           </Card>
 
