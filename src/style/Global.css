@@ -130,3 +130,9 @@ z-index: 2;
 html {
   scroll-padding-top: 160px; /* Adjust based on your navbar height */
 }
+
+@media (max-width: 575.98px) {
+  #quoteForm {
+    scroll-margin-top: 40px; /* Adjusted margin for mobile screens */
+  }
+}
