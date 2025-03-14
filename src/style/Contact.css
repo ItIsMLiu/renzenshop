@@ -3,3 +3,13 @@
     background-image: url(../assets/images/contactheroimg.jpg);
   }
   
+.contactInputBox{
+  border-radius: 0px !important;
+  border-color: var(--colour2) !important;
+}
+
+.contactInputBox:focus {
+  border-color: var(--colour3) !important; /* Change border color */
+  box-shadow: 0 0 5px var(--colour3) !important; /* Change glow color */
+  outline: none !important;
+}

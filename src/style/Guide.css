@@ -3,3 +3,38 @@
     background-image: url(../assets/images/guideheroimg.jpg);
   }
   
+.guideForm {
+  background-color: var(--colour2);
+  color: var(--colour1) ;
+}
+
+.guideFormCard{
+  background-color: var(--colour2) !important;
+  color: var(--colour1) !important;
+  border-radius: 0px !important;
+}
+
+.guideInputBox {
+  border-radius: 0px !important;
+  border: none !important;
+  background-color: white !important;
+}
+
+.guideSelectBox {
+  border-radius: 0px !important;
+  border: none !important;
+  background-color: white !important;
+  color: grey !important;
+}
+
+.guideInputBox:focus {
+  border-color: var(--colour3) !important; /* Change border color */
+  box-shadow: 0 0 5px var(--colour3) !important; /* Change glow color */
+  outline: none !important;
+}
+
+.guideSelectBox:focus {
+  border-color: var(--colour3) !important; /* Change border color */
+  box-shadow: 0 0 5px var(--colour3) !important; /* Change glow color */
+  outline: none !important;
+}

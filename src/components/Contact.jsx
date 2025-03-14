@@ -23,18 +23,18 @@ function Contact() {
             <Form action="https://getform.io/f/axowwyrb" method="POST">
               <Form.Group className="mb-3">
                 <Form.Label>Name:</Form.Label>
-                <Form.Control type="text" name="name" required />
+                <Form.Control className='contactInputBox' type="text" name="name" required />
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label>Email Address:</Form.Label>
-                <Form.Control type="email" name="email" aria-describedby="emailHelp" required />
+                <Form.Control className='contactInputBox' type="email" name="email" aria-describedby="emailHelp" required />
                 <Form.Text className="text-muted">We'll never share your email.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label>Message:</Form.Label>
-                <Form.Control as="textarea" name="message" rows={3} required />
+                <Form.Control className='contactInputBox' as="textarea" name="message" rows={3} required />
               </Form.Group>
 
               <Button variant="primary" type="submit">Submit</Button>

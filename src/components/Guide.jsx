@@ -206,25 +206,25 @@ function Guide() {
             </ListGroup>
           </Card>
 
-          <Card className="py-4 px-3 mt-4">
-            <h2>Tell us your preferences now to get a detailed quote:</h2>
-            <p>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
+          <Card className="py-5 px-5 my-5 mx-5 guideFormCard">
+            <h2 className='px-5 text-center'>Tell us your preferences now to get a detailed quote:</h2>
+            <p className='px-5 pb-5 text-center'>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
 
-            <Form action="https://getform.io/f/axowwyrb" method="POST" enctype="multipart/form-data">
+            <Form action="https://getform.io/f/axowwyrb" method="POST" enctype="multipart/form-data" className='guideForm pb-5 px-5 '>
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">What room/window is this curtain for? (Required):</Form.Label>
-                <Form.Control type="text" name="Room" required />
-                <Form.Text className="text-muted">For purpose of reference, especially if you are ordering for more than one window.</Form.Text>
+                <Form.Control className='guideInputBox' type="text" name="Room" required />
+                <Form.Text className=" text-muted">For purpose of reference, especially if you are ordering for more than one window.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">Upload a photo of the window:</Form.Label>
-                <Form.Control type="file" name="photo" />
+                <Form.Control className='guideInputBox' type="file" name="photo" />
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">1. What fabric would you like for this room?</Form.Label>
-                <Form.Select name="1.fabric" required>
+                <Form.Select className='guideSelectBox' name="1.fabric" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="1.A. Blockout">1.A. Blockout</option>
                   <option value="1.B. Room-Darkening">1.B. Room-Darkening</option>
@@ -232,13 +232,13 @@ function Guide() {
                   <option value="1.A & 1.C. Blockout & Sheer">1.A & 1.C Blockout & Sheer</option>
                   <option value="1.B & 1.C. Room-Darkening & Sheer">1.B & 1.C Room-Darkening & Sheer</option>
                 </Form.Select>
-                <Form.Label>Chosen product name and colour (Required):</Form.Label>
-                <Form.Control type="text" name="Product Name & Colour" required />
+                <Form.Label className="fw-bold">Chosen product name and colour (Required):</Form.Label>
+                <Form.Control className='guideInputBox' type="text" name="Product Name & Colour" required />
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">2. Do you have a track or a pole?</Form.Label>
-                <Form.Select name="2.Track or Pole" required>
+                <Form.Select className='guideSelectBox' name="2.Track or Pole" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="None">No, and I would like some advice</option>
                   <option value="2.A. Pole only">2.A. Pole only</option>
@@ -250,7 +250,7 @@ function Guide() {
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">3. What heading style would you like?</Form.Label>
-                <Form.Select name="3.Heading Style" required>
+                <Form.Select className='guideSelectBox' name="3.Heading Style" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="3.A. Triple Pinch Pleat">3.A. Triple Pinch Pleat</option>
                   <option value="3.B. Double Pinch Pleat">3.B. Double Pinch Pleat</option>
@@ -261,7 +261,7 @@ function Guide() {
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">4. Single or double panel?</Form.Label>
-                <Form.Select name="4.Single or Double Panel" required>
+                <Form.Select className='guideSelectBox' name="4.Single or Double Panel" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="4.A. Single">4.A. Single</option>
                   <option value="4.B. Double">4.B. Double</option>
@@ -270,7 +270,7 @@ function Guide() {
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">5. Preferred width coverage?</Form.Label>
-                <Form.Select name="5.Width" required>
+                <Form.Select className='guideSelectBox' name="5.Width" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="5.A. Full wall width">5.A. Full wall width</option>
                   <option value="5.B. Cover window only">5.B. Cover window only</option>
@@ -279,7 +279,7 @@ function Guide() {
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">6. Preferred length coverage?</Form.Label>
-                <Form.Select name="6.Length" required>
+                <Form.Select className='guideSelectBox' name="6.Length" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="6.A. 1cm above of sill">6.A. Drop to Sill (1cm above of sill)</option>
                   <option value="6.B. 1cm below the sill">6.B. Drop at Sill (1cm below sill)</option>
@@ -292,19 +292,19 @@ function Guide() {
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">7.A. Pole length or track length measurement (Required):</Form.Label>
-                <Form.Control type="text" name="7.A.Width" required />
-                <Form.Text className="text-muted">See above guide.</Form.Text>
+                <Form.Control className='guideInputBox' type="text" name="7.A.Width" required />
+                <Form.Text className=" text-muted">See above guide.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">7.B. Curtain length measurement (Required):</Form.Label>
-                <Form.Control type="text" name="7.B. Length" required />
-                <Form.Text className="text-muted">See above guide.</Form.Text>
+                <Form.Control className='guideInputBox' type="text" name="7.B. Length" required />
+                <Form.Text className=" text-muted">See above guide.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">Do you need us to visit your place for measurements?</Form.Label>
-                <Form.Select name="Measurement?" required>
+                <Form.Select className='guideSelectBox' name="Measurement?" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="No">No</option>
                   <option value="Yes">Yes</option>
@@ -313,7 +313,7 @@ function Guide() {
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">Do you need us to do the installation?</Form.Label>
-                <Form.Select name="Installation?" required>
+                <Form.Select className='guideSelectBox' name="Installation?" required>
                   <option value="" disabled selected>Select an option (Required)</option>
                   <option value="No">No</option>
                   <option value="Yes">Yes</option>
@@ -322,31 +322,31 @@ function Guide() {
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">Postcode (Required):</Form.Label>
-                <Form.Control type="text" name="Postcode" required />
+                <Form.Control className='guideInputBox' type="text" name="Postcode" required />
                 <Form.Text className="text-muted">For measurement, installation or delivery.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">Name (Required):</Form.Label>
-                <Form.Control type="text" name="name" required />
+                <Form.Control className='guideInputBox' type="text" name="name" required />
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">Email Address (Required):</Form.Label>
-                <Form.Control type="email" name="email" aria-describedby="emailHelp" required />
+                <Form.Control className='guideInputBox' type="email" name="email" aria-describedby="emailHelp" required />
                 <Form.Text className="text-muted">We'll never share your email.</Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label className="fw-bold">Message (Optional):</Form.Label>
-                <Form.Control as="textarea" name="message" rows={3} />
+                <Form.Control className='guideInputBox' as="textarea" name="message" rows={3} />
               </Form.Group>
 
               <Button variant="primary" type="submit">Submit</Button>
             </Form>
           </Card>
 
-          <Card className="py-4 px-3 mt-4">
+          <Card className="py-4 px-3 mt-4 text-center">
             <h2>This is too much to handle?</h2>
             <p>No worries! We can come to your place to help you decide and measure! </p>
             <NavLink to="/contact" className="nav-link">
