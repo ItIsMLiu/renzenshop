@@ -127,8 +127,12 @@ z-index: 2;
   border: none !important;
 }
 
-html {
-  scroll-padding-top: 160px; /* Adjust based on your navbar height */
+
+
+@media (min-width: 575.99px) {
+  html {
+    scroll-padding-top: 160px; /* Adjust based on your navbar height */
+  }
 }
 
 @media (max-width: 575.98px) {
