@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 
 import "../style/Contact.css"
 import "../style/Global.css"
+import { EmailForm } from './EmailForm';
 
 function Contact() {
   return (
@@ -19,7 +20,8 @@ function Contact() {
           <Card className="py-4 px-3">
             <h2>Contact Form</h2>
             <p>We typically respond within 24 hours. If you don't see a reply, please check your junk or spam folder. Thank you!</p>
-
+            <EmailForm/>
+{/*
             <Form action="https://getform.io/f/axowwyrb" method="POST" enctype="multipart/form-data">
               <Form.Floating className="mb-3">
                 <Form.Control
@@ -68,6 +70,7 @@ function Contact() {
 
               <Button variant="primary" type="submit">Send</Button>
             </Form>
+*/}
           </Card>
 
           {/* Get in Touch */}
