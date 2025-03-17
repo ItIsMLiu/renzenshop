@@ -21,7 +21,7 @@ const Item = ({ image1, title, price, category, id, colourProducts }) => {
           </h3>
         </Link>
         <p className='mb-0'>
-          {price} per m width
+          £{price} per m width
         </p>
         <div className="d-flex flex-wrap gap-2 mt-2 mb-3">
           {colors.map((color, index) => (

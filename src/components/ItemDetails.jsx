@@ -81,15 +81,12 @@ const ItemDetails = () => {
                         ))}
                     </p>
                     <p><strong>Product ID: </strong> {item.type}{item.id}</p>
-                    <p><strong>Price: </strong>{item.price} per m width</p>
+                    <p><strong>Price: </strong>£{item.price} per m track/pole width (exclude track, pole, measurement & installation services)</p>
                     <p><strong>Colour Options:</strong> {item.colourDetails}</p>
                     {item.blockoutPercent && (
                         <p><strong>Blockout %: </strong>{item.blockoutPercent}</p>
                     )}
                     <p><strong>Material: </strong> {item.material}</p>
-                    {item.weight && (
-                        <p><strong>Weight: </strong>{item.weight} per metre.</p>
-                    )}
                     <div className="d-inline-block">
                         <Button variant="primary" className="my-4 me-4" href="/order">
                             Ordering Steps
