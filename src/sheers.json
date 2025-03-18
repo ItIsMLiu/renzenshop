@@ -3,7 +3,7 @@
         "id": 1,
         "type":"SR",
         "title": "Sei",
-        "price": "35",
+        "price": "37",
         "image1": "/images/sheer1-1.jpg",
         "image2": "/images/sheer1-2.jpg",
         "image3": "/images/sheer1-3.jpg",
@@ -13,13 +13,14 @@
         "colourProducts": "#f2ebe1",
         "colourDetails": "Cream",
         "material": "Polyester",
+        "weight": "350G",
         "comment": "35 奶油亚麻纱"
     },
     {
         "id": 2,
         "type":"SR",
         "title": "Kiri",
-        "price": "28",
+        "price": "29",
         "image1": "/images/sheer2-1.jpg",
         "image2": "/images/sheer2-2.jpg",
         "image3": "/images/sheer2-3.jpg",
@@ -29,13 +30,14 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
+        "weight": "300G",
         "comment": "28 金刚纱"
     },
     {
         "id": 3,
         "type":"SR",
         "title": "Himari",
-        "price": "35",
+        "price": "36",
         "image1": "/images/sheer3-1.jpg",
         "image2": "/images/sheer3-2.jpg",
         "image3": "/images/sheer3-3.jpg",
@@ -46,13 +48,14 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Cotton",
+        "weight": "400G",
         "comment": "35 镜面格子纱"
     },
     {
         "id": 4,
         "type":"SR",
         "title": "Iki",
-        "price": "35",
+        "price": "36",
         "image1": "/images/sheer4-1.jpg",
         "image2": "/images/sheer4-2.jpg",
         "image3": "/images/sheer4-3.jpg",
@@ -63,13 +66,14 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
+        "weight": "380G",
         "comment": "35 压皱纱"
     },
     {
         "id": 5,
         "type":"SR",
         "title": "Stria",
-        "price": "30",
+        "price": "32",
         "image1": "/images/sheer5-1.jpg",
         "image2": "/images/sheer5-2.jpg",
         "image3": "/images/sheer5-3.jpg",
@@ -80,6 +84,7 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Cotton",
+        "weight": "380G",
         "comment": "30 百叶纱"
     },
     {
@@ -96,13 +101,14 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
+        "weight": "420G",
         "comment": "45 南枝纱"
     },
     {
         "id": 7,
         "type":"SR",
         "title": "Mistique",
-        "price": "32",
+        "price": "35",
         "image1": "/images/sheer7-1.jpg",
         "image2": "/images/sheer7-2.jpg",
         "image3": "/images/sheer7-3.jpg",
@@ -112,6 +118,7 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Cotton",
+        "weight": "420G",
         "comment": "32 幻影纱"
     },
     {
@@ -128,13 +135,14 @@
         "colourProducts": "#f2ebe1",
         "colourDetails": "Flax",
         "material": "Cotton-linen",
+        "weight": "400G",
         "comment": "39 仿麻纱"
     },
     {
         "id": 9,
         "type":"SR",
         "title": "Herra",
-        "price": "25",
+        "price": "28",
         "image1": "/images/sheer9-1.jpg",
         "image2": "/images/sheer9-2.jpg",
         "image3": "/images/sheer9-3.jpg",
@@ -144,6 +152,7 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
+        "weight": "350G",
         "comment": "25 鱼骨纱"
     },
     {
@@ -161,13 +170,14 @@
         "colourProducts": "White, #f2ebe1",
         "colourDetails": "White, Cream",
         "material": "Polyester",
+        "weight": "360G",
         "comment": "38 月枝纱"
     },
     {
         "id": 11,
         "type":"SR",
         "title": "Kusa",
-        "price": "35",
+        "price": "36",
         "image1": "/images/sheer11-1.jpg",
         "image2": "/images/sheer11-2.jpg",
         "image3": "/images/sheer11-3.jpg",
@@ -177,6 +187,7 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
+        "weight": "400G",
         "comment": "35 麦穗镜面纱"
     },
     {
@@ -193,6 +204,7 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
+        "weight": "380G",
         "comment": "35 和风纱"
     }
 ]
