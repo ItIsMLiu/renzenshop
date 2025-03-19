@@ -1,0 +1,29 @@
+.calInputBox {
+  border-radius: 0px !important;
+}
+
+.calInputBox:focus {
+  border-color: var(--colour3) !important; /* Change border color */
+  box-shadow: 0 0 5px var(--colour3) !important; /* Change glow color */
+  outline: none !important;
+}
+
+/* Change the background and border color */
+.form-check-input:checked {
+  background-color: var(--colour3) !important; /* Your desired color */
+  border-color: var(--colour3) !important;
+}
+
+/* Remove or change the default blue shadow */
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(var(--colour3), 0.25) !important;
+}
+
+/* Optional: Ensure hover effect matches */
+.form-check-input:hover {
+  border-color: var(--colour3) !important;
+}
+
+
+
+

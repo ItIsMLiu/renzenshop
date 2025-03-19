@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Card, Form, Button } from "react-bootstrap";
+import "../style/Calculator.css"
 
 const Calculator = ({ item }) => {
   const [width, setWidth] = useState(0);
@@ -29,9 +30,9 @@ const Calculator = ({ item }) => {
   };
 
   return (
-    <Card className="p-4 mx-auto" style={{ maxWidth: "400px" }}>
-      <Card.Body>
-        <h2 className="text-center">Price Estimator</h2>
+    <Card style={{ maxWidth: "400px" }} className="px-0">
+      <Card.Body className="px-0">
+        <h2 className="">Price Estimator</h2>
         <Form>
           <Form.Group className="mb-3">
             <Form.Label>Pole or Track Width (cm):</Form.Label>
@@ -39,6 +40,7 @@ const Calculator = ({ item }) => {
               type="number"
               value={width}
               onChange={(e) => setWidth(Number(e.target.value))}
+              className="calInputBox"
             />
           </Form.Group>
           <Form.Group className="mb-3">
@@ -47,6 +49,7 @@ const Calculator = ({ item }) => {
               type="number"
               value={height}
               onChange={(e) => setHeight(Number(e.target.value))}
+              className="calInputBox"
             />
           </Form.Group>
           <Form.Group className="mb-3">
@@ -56,6 +59,7 @@ const Calculator = ({ item }) => {
                 <Form.Check
                   key={type}
                   type="radio"
+                  id={type}
                   label={type}
                   name="curtainType"
                   value={type}
@@ -65,11 +69,13 @@ const Calculator = ({ item }) => {
               ))}
             </div>
           </Form.Group>
+
           <Form.Group className="mb-3">
             <Form.Label>Single or Pair:</Form.Label>
             <div>
               <Form.Check
                 type="radio"
+                id="singleOption"
                 label="Single"
                 name="curtainOption"
                 value="Single"
@@ -78,6 +84,7 @@ const Calculator = ({ item }) => {
               />
               <Form.Check
                 type="radio"
+                id="pairOption"
                 label="Pair"
                 name="curtainOption"
                 value="Pair"
@@ -86,12 +93,13 @@ const Calculator = ({ item }) => {
               />
             </div>
           </Form.Group>
+
           <Button variant="primary" className="w-100" onClick={calculatePrice}>
             Get Price
           </Button>
         </Form>
-        <div className="mt-4 text-center fw-bold">Total Price: £{price.toFixed(0)}</div>
-        <p className="text-center">(exclude track, pole, measurement & installation services)</p>
+        <div className="mt-4 fw-bold">Total Price: £{price.toFixed(0)}</div>
+        <p>(exclude track, pole, measurement & installation services)</p>
       </Card.Body>
     </Card>
   );
