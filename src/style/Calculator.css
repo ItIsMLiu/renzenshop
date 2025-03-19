@@ -24,6 +24,10 @@
   border-color: var(--colour3) !important;
 }
 
+.bi-info-circle {
+  color: var(--colour3);
+}
 
-
-
+.modal-content {
+  border-radius: 0 !important; /* Removes rounded corners */
+}
