@@ -15,8 +15,9 @@
         "colourDetails": "Cream, Beige, Mint, B&W",
         "blockoutPercent":"Cream-70%, Beige-75%, Mint-75%, B&W-80%",
         "material": "Polyester",
-        "weight": "1250G",
-        "comment": "79 彩虹小香风ML202"
+        "weight": "1250",
+        "cost": "79",
+        "comment": "彩虹小香风ML202"
     },
     {
         "id": 2,
@@ -34,8 +35,9 @@
         "colourDetails": "Pink-TW, Blue-TW, Green-TW, Black-TW, Pink-LG, Blue-LG, Brown-KQ, Pink-TG, Beige-RG",
         "blockoutPercent":"70%",
         "material": "Polyester",
-        "weight": "1200G",
-        "comment": "38 费尔岛"
+        "weight": "1200",
+        "cost": "38",
+        "comment": "费尔岛"
     },    
     {
         "id": 3,
@@ -53,7 +55,8 @@
         "colourDetails": "Cream, White, Latte, Grey",
         "blockoutPercent":"70%",
         "material": "Chenille",
-        "weight": "1200G",
-        "comment": "85 鎏光"
+        "weight": "1200",
+        "cost": "85",
+        "comment": "鎏光"
     }
 ]

@@ -13,8 +13,9 @@
         "colourProducts": "#f2ebe1",
         "colourDetails": "Cream",
         "material": "Polyester",
-        "weight": "350G",
-        "comment": "35 奶油亚麻纱"
+        "weight": "350",
+        "cost": "35",
+        "comment": "奶油亚麻纱"
     },
     {
         "id": 2,
@@ -30,8 +31,9 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
-        "weight": "300G",
-        "comment": "28 金刚纱"
+        "weight": "300",
+        "cost": "28",
+        "comment": "金刚纱"
     },
     {
         "id": 3,
@@ -48,8 +50,9 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Cotton",
-        "weight": "400G",
-        "comment": "35 镜面格子纱"
+        "weight": "400",
+        "cost": "35",
+        "comment": "镜面格子纱"
     },
     {
         "id": 4,
@@ -66,8 +69,9 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
-        "weight": "380G",
-        "comment": "35 压皱纱"
+        "weight": "380",
+        "cost": "35",
+        "comment": "压皱纱"
     },
     {
         "id": 5,
@@ -84,8 +88,9 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Cotton",
-        "weight": "380G",
-        "comment": "30 百叶纱"
+        "weight": "380",
+        "cost": "30",
+        "comment": "百叶纱"
     },
     {
         "id": 6,
@@ -101,8 +106,9 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
-        "weight": "420G",
-        "comment": "45 南枝纱"
+        "weight": "420",
+        "cost": "45",
+        "comment": "南枝纱"
     },
     {
         "id": 7,
@@ -118,8 +124,9 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Cotton",
-        "weight": "420G",
-        "comment": "32 幻影纱"
+        "weight": "420",
+        "cost": "32",
+        "comment": "幻影纱"
     },
     {
         "id": 8,
@@ -135,8 +142,9 @@
         "colourProducts": "#f2ebe1",
         "colourDetails": "Flax",
         "material": "Cotton-linen",
-        "weight": "400G",
-        "comment": "39 仿麻纱"
+        "weight": "400",
+        "cost": "39",
+        "comment": "仿麻纱"
     },
     {
         "id": 9,
@@ -152,8 +160,9 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
-        "weight": "350G",
-        "comment": "25 鱼骨纱"
+        "weight": "350",
+        "cost": "25",
+        "comment": "鱼骨纱"
     },
     {
         "id": 10,
@@ -170,8 +179,9 @@
         "colourProducts": "White, #f2ebe1",
         "colourDetails": "White, Cream",
         "material": "Polyester",
-        "weight": "360G",
-        "comment": "38 月枝纱"
+        "weight": "360",
+        "cost": "38",
+        "comment": "月枝纱"
     },
     {
         "id": 11,
@@ -187,8 +197,9 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
-        "weight": "400G",
-        "comment": "35 麦穗镜面纱"
+        "weight": "400",
+        "cost": "35",
+        "comment": "麦穗镜面纱"
     },
     {
         "id": 12,
@@ -204,7 +215,8 @@
         "colourProducts": "White",
         "colourDetails": "White",
         "material": "Polyester",
-        "weight": "380G",
-        "comment": "35 和风纱"
+        "weight": "380",
+        "cost": "35",
+        "comment": "和风纱"
     }
 ]

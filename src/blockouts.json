@@ -16,8 +16,9 @@
         "colourDetails": "Cream-1, Cream-2, Cream-3, Latte-4, Cream-5, Latte-6, Pink-9, Green-10, Green-12, Blue-14, Grey-16, Grey-17, Grey-18",
         "blockoutPercent":"100%",
         "material": "Chenille",
-        "weight": "1450G",
-        "comment": "65 全遮光雪尼尔/云感-全遮光"
+        "weight": "1450",
+        "cost": "65",
+        "comment": "全遮光雪尼尔/云感-全遮光"
     },
     {
         "id": 2,
@@ -36,8 +37,9 @@
         "colourDetails": "Green-1, Green-27, Pink-3, Blue-13,  Cream-2, Cream-16, Blue-grey-4, Blue-grey-6",
         "blockoutPercent":"Green-27 & Blue-grey-6 (97%); Green-1 & Pink-3 (95%); Blue-13 & Blue-grey-4 (92%); Cream-2 & Cream-16 (87%).",
         "material": "Polyester",
-        "weight": "1300G",
-        "comment": "68 松枝纹"
+        "weight": "1300",
+        "cost": "68",
+        "comment": "松枝纹"
     },
     {
         "id": 3,
@@ -56,8 +58,9 @@
         "colourDetails": "Beige-SY, Beige-YS, Beige-JG, Orange-HP, Blue-LT, Pink-LL, Blue-MB, Pink-SW, Cream-NY, Blue-NW, Green-QM, Green-QN, Grey-SY, Grey-QL",
         "blockoutPercent":"90%",
         "material": "Poly-cotton",
-        "weight": "1350G",
-        "comment": "75 蔓柔"
+        "weight": "1350",
+        "cost": "75",
+        "comment": "蔓柔"
     },
     {
         "id": 4,
@@ -76,8 +79,9 @@
         "colourDetails": "Matcha, Cream, Grapefruit, Milk Tea, Haze Blue, Coconut Cream, Baby Blue, Cloud Grey, Navy, Space Ash, Taro Purple, Ashy Purple, Chestnut Brown, Moon Grey, Peacock Orchid, Van Gogh Green, Maldives Blue, Sycamore Yellow",
         "blockoutPercent":"Haze Blue, Coconut Cream, Navy, Space Ash, Ashy Purple, Chestnut Brown, Moon Grey, Peacock Orchid, Van Gogh Green, Maldives Blue & Sycamore Yellow (95%); Matcha, Cream, Grapefruit, Milk Tea, Baby Blue, Cloud Grey & Taro Purple (90%)",
         "material": "Cotton",
-        "weight": "1350G",
-        "comment": "65 水波纹"
+        "weight": "1350",
+        "cost": "65",
+        "comment": "水波纹"
     },
     {
         "id": 5,
@@ -95,8 +99,9 @@
         "colourDetails": "Cream-NY, Cream-XL, Pink-RG, Green-QL, Cream-QM, Cream-KK, Brown-NC, Pink-SJ, Purple-WX, Green-BH, Grey-DR,  Blue-BH, Blue-XE",
         "blockoutPercent":"85%",
         "material": "Cotton",
-        "weight": "1350G",
-        "comment": "58 芝士羊绒"
+        "weight": "1350",
+        "cost": "58",
+        "comment": "芝士羊绒"
     },
     {
         "id": 6,
@@ -114,8 +119,9 @@
         "colourDetails": "Cream-1, Cream-2, Cream-3, Tea-5, Latte-6, Latte-8, Grey-9, Grey-10, Blue-12, Blue-13, Pink14, Green-15, Green-16, Toffee-17, Green-20, Pink-22",
         "blockoutPercent":"99%",
         "material": "Chenille",
-        "weight": "1450G",
-        "comment": "68 睡眠大师"
+        "weight": "1450",
+        "cost": "68",
+        "comment": "睡眠大师"
     },    
     {
         "id": 7,
@@ -134,8 +140,9 @@
         "colourDetails": "Bronze-01, Cream-05, Brown-06, Pink-04, Green-02, Grey-03",
         "blockoutPercent":"Green (99%), Bronze & Brown (95%), Pink & Grey (85%), Cream (80%)",
         "material": "Synthetic Imitation Linen",
-        "weight": "1500G",
-        "comment": "75 椿野"
+        "weight": "1500",
+        "cost": "75",
+        "comment": "椿野"
     },    
     {
         "id": 8,
@@ -154,8 +161,9 @@
         "colourDetails": "Cream, Beige, Mint, Latte, Bronze, Green, Pink, Grey",
         "blockoutPercent":"Bronze & Green (90%); Mint, Latte & Grey (87%); Cream, Beige & Pink (85%)",
         "material": "Polyester",
-        "weight": "1500G",
-        "comment": "75 松萝"
+        "weight": "1500",
+        "cost": "75",
+        "comment": "松萝"
     },
     {
         "id": 9,
@@ -174,7 +182,8 @@
         "colourDetails": "Cream-01, Cream-02, Brown-03, Bronze-04, Pink-05, Cream-06, Latte-07, Green-09, Mint-10, Blue-11, Green-12, Grey-13, Grey-15, Black-16",
         "blockoutPercent":"80-90%",
         "material": "Chenille",
-        "weight": "1600G",
-        "comment": "75 蔓塔"
+        "weight": "1600",
+        "cost": "75",
+        "comment": "蔓塔"
     }
 ]

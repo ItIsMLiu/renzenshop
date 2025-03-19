@@ -5,6 +5,7 @@ import blockouts from '../blockouts.json';
 import roomdarkenings from '../roomdarkenings.json';
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "../style/Global.css";
+import Calculator from './Calculator';
 
 const categories = {
   blockouts,
@@ -81,12 +82,12 @@ const ItemDetails = () => {
                         ))}
                     </p>
                     <p><strong>Product ID: </strong> {item.type}{item.id}</p>
-                    <p><strong>Price: </strong>£{item.price} per m track/pole width (exclude track, pole, measurement & installation services)</p>
                     <p><strong>Colour Options:</strong> {item.colourDetails}</p>
                     {item.blockoutPercent && (
                         <p><strong>Blockout %: </strong>{item.blockoutPercent}</p>
                     )}
                     <p><strong>Material: </strong> {item.material}</p>
+                    <Calculator item={item} />
                     <div className="d-inline-block">
                         <Button variant="primary" className="my-4 me-4" href="/order">
                             Ordering Steps
