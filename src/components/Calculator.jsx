@@ -41,7 +41,7 @@ const Calculator = ({ item }) => {
     const C = item.cost;
 
     const formulaResult =
-      ((C * X * W / 100) + (55 + 70 * ((G / 1000 / 2.7) * (W * X / 100) * (H / 100) - 0.5))) / 9.014202 * 2;
+      ((C * X * W / 100) + (55 + 70 * ((G / 1000 / 2.7) * (W * X / 100) * (H / 100) - 0.5))) / 9.014202 * 3;
 
     setPrice(formulaResult);
   };
