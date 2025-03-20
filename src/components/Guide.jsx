@@ -64,7 +64,7 @@ function Guide() {
           <Card className="py-4 px-3">
             <h2>2. Track or Pole</h2>
             <p>Do you have an existing track or pole? Your track or pole can be either ceiling-mounted or wall-mounted.</p>
-            <p>Note: We currently do not sell tracks or poles, so you will need to prepare your own separately.</p>
+            <p>Note: If you don't have a track or pole, contact us — we may be able to source it for you.</p>
             <Row className="g-0 d-flex flex-column flex-md-row">
               <Col md={6}>
                 <Card.Img
