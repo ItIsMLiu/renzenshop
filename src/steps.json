@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Step 1 \n Choose the Fabric and Colour",
-        "description": "View our range of products to select a material that suits your needs (e.g., light-filtering, blackout or sheer) for privacy, insulation, or light control; and pick a colour or pattern that complements your room's decor. \n When considering a fabric, use the Price Estimator to get an idea of price.",
+        "description": "Browse our range of products to choose a material that meets your needs—whether it's blockout, room-darkening or sheer — for privacy, insulation, or light control. Then, select a colour or pattern that complements your room's decor. \n When exploring fabric options, use our Price Estimator to get an idea of the cost.",
         "image": "/images/sheer3-1.jpg",
         "link1": "/products",
         "buttonText1": "View Products"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Step 2 \n Your Preferences",
-        "description": "Option 1: Book a Visit (Bristol only) \n1. See material samples - we can bring large format samples to you).\n 2. Discuss your preferences:\n • Fabric and Colour \n  • Track/Rail \n • Curtain Heading\n  • Single/Double Panel\n  • Curtain width and length.\n 3. Take measurements.\n 4. Confirm your preference and finalise your quote. \n \n Option 2: DIY (If you are not in Bristol or simply want to DIY)\n 1. Choose a fabric by browsing pictures on our Products page. \n 2. Use our Buying Guide to determine your preferences. \n 3. Take window measurements yourself (See what measurements we need in Buying Guide.) \n 4. Fill and submit the form at the bottom of the Buying Guide page to confirm quote and start the ordering process." ,
+        "description": "Option 1: Book a Visit (for Bristol only) \n1. See material samples - we can bring large format samples to you).\n 2. Discuss your preferences:\n • Fabric and Colour \n  • Track/Rail \n • Curtain Heading\n  • Single/Double Panel\n  • Curtain width and length.\n 3. Take measurements.\n 4. Confirm your preferences and finalise your quote. \n \n Option 2: DIY (If you are not in Bristol or simply want to DIY)\n 1. Choose a fabric by browsing pictures on our Products page. \n 2. Use our Buying Guide to determine your preferences. \n 3. Take window measurements yourself (See what measurements we need in Buying Guide.) \n 4. Fill and submit the form at the bottom of the Buying Guide page to confirm quote and start the ordering process." ,
         "image": "/images/step2img.jpg",
         "link1": "/contact",
         "buttonText1": "Book a Visit",
