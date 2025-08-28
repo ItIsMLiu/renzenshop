@@ -127,5 +127,23 @@ z-index: 2;
   border: none !important;
 }
 
+/* Clickable images */
+.clickable-img {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
 
+.clickable-img:hover {
+  transform: scale(1.02);
+}
 
+.clickable-img-header {
+  border-bottom: none !important;
+}
+
+.colour-name {
+  white-space: nowrap; 
+  display: block;
+  font-size: clamp(0.6rem, 1.5vw, 1rem); /* shrinks on small screens */
+  text-align: center;
+}
