@@ -38,7 +38,7 @@ const ItemDetails = () => {
         { pill: item.pill12, enlarge: item.colour12, name: colourNames[11] },
         { pill: item.pill13, enlarge: item.colour13, name: colourNames[12] },
         { pill: item.pill14, enlarge: item.colour14, name: colourNames[13] },
-    ].filter(c => c.pill && c.enlarge && c.name);
+    ].filter(c => c.pill && c.name);
 
     const mainImage = item.image1;
     const otherImages = [
@@ -63,9 +63,10 @@ const ItemDetails = () => {
     const [selectedName, setSelectedName] = useState(null);
 
     const handleImageClick = (img, name = null) => {
-    setSelectedImage(img);
-    setSelectedName(name);
-    setShowModal(true);
+        if (!img) return; // nothing to show
+        setSelectedImage(img);
+        setSelectedName(name);
+        setShowModal(true);
     };
 
     const handleClose = () => {
@@ -149,7 +150,7 @@ const ItemDetails = () => {
                             <Card.Img 
                             src={c.pill} 
                             alt={`${item.title} colour option`} 
-                            onClick={() => handleImageClick(c.enlarge, c.name)} 
+                            onClick={() => handleImageClick(c.enlarge || c.pill, c.name)} 
                             className="clickable-img"
                             />
                             <p className="mt-2 colour-name text-center">{c.name}</p>
