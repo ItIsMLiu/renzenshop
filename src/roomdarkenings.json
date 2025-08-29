@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "type":"RD",
+        "type":"RD-B-",
         "title": "Étoile",
         "price": "93",
         "image1": "/images/roomdarkening1-1.jpg",
@@ -28,7 +28,7 @@
     },
     {
         "id": 2,
-        "type":"RD",
+        "type":"RD-B-",
         "title": "Viva",
         "price": "95",
         "image1": "/images/roomdarkening2-1.jpg",
@@ -57,7 +57,7 @@
     },    
     {
         "id": 3,
-        "type":"RD",
+        "type":"RD-B-",
         "title": "Nimbus",
         "price": "95",
         "image1": "/images/roomdarkening3-1.jpg",

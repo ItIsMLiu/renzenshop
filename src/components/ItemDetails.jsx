@@ -38,7 +38,7 @@ const ItemDetails = () => {
         { pill: item.pill12, enlarge: item.colour12, name: colourNames[11] },
         { pill: item.pill13, enlarge: item.colour13, name: colourNames[12] },
         { pill: item.pill14, enlarge: item.colour14, name: colourNames[13] },
-    ].filter(c => c.pill && c.name);
+    ].filter(c => c.name);
 
     const mainImage = item.image1;
     const otherImages = [
@@ -147,13 +147,19 @@ const ItemDetails = () => {
                     <Row xs={4} key={rowIndex} className="pb-4">
                         {row.map((c, colIndex) => (
                         <Col key={colIndex}>
-                            <Card.Img 
-                            src={c.pill} 
-                            alt={`${item.title} colour option`} 
-                            onClick={() => handleImageClick(c.enlarge || c.pill, c.name)} 
-                            className="clickable-img"
-                            />
-                            <p className="mt-2 colour-name text-center">{c.name}</p>
+                            {c.pill || c.enlarge ? (
+                                <>
+                                    <Card.Img 
+                                    src={c.pill || c.enlarge} 
+                                    alt={`${item.title} colour option`} 
+                                    onClick={() => handleImageClick(c.enlarge || c.pill, c.name)} 
+                                    className="clickable-img"
+                                    />
+                                    <p className="mt-2 colour-name text-center">{c.name}</p>
+                                </>
+                            ) : (
+                                <p>{c.name}</p>
+                            )}
                         </Col>
                         ))}
                     </Row>

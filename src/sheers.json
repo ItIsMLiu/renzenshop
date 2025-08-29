@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Sei",
         "price": "37",
         "image1": "/images/sheer1-1.jpg",
@@ -19,7 +19,7 @@
     },
     {
         "id": 2,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Kiri",
         "price": "29",
         "image1": "/images/sheer2-1.jpg",
@@ -37,7 +37,7 @@
     },
     {
         "id": 3,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Himari",
         "price": "36",
         "image1": "/images/sheer3-1.jpg",
@@ -56,7 +56,7 @@
     },
     {
         "id": 4,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Iki",
         "price": "36",
         "image1": "/images/sheer4-1.jpg",
@@ -75,7 +75,7 @@
     },
     {
         "id": 5,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Stria",
         "price": "32",
         "image1": "/images/sheer5-1.jpg",
@@ -94,7 +94,7 @@
     },
     {
         "id": 6,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Nanagi",
         "price": "45",
         "image1": "/images/sheer6-1.jpg",
@@ -112,7 +112,7 @@
     },
     {
         "id": 7,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Mistique",
         "price": "35",
         "image1": "/images/sheer7-1.jpg",
@@ -130,7 +130,7 @@
     },
     {
         "id": 8,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Wabi",
         "price": "39",
         "image1": "/images/sheer8-1.jpg",
@@ -148,7 +148,7 @@
     },
     {
         "id": 9,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Herra",
         "price": "28",
         "image1": "/images/sheer9-1.jpg",
@@ -166,7 +166,7 @@
     },
     {
         "id": 10,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Lune",
         "price": "38",
         "image1": "/images/sheer10-1.jpg",
@@ -175,6 +175,10 @@
         "image4": "/images/sheer10-4.jpg",
         "image5": "/images/sheer10-5.jpg",
         "image6": "/images/sheer10-6.jpg",
+        "colour1": "/images/sheer-c-10-1.jpg",
+        "pill1": "/images/sheer-p-10-1.jpg",
+        "colour2": "/images/sheer-c-10-2.jpg",
+        "pill2": "/images/sheer-p-10-2.jpg",
         "description":"French Vintage Moon Branch Jacquard Sheer Curtains. \n\n Our sheer curtain is lightweight and breathable, allowing soft natural light to filter through while maintaining privacy. Its versatile design makes it ideal for living rooms, bedrooms, and dining areas. Pair it with blockout or room-darkening curtains for added light control and style.",
         "colourProducts": "White, #f2ebe1",
         "colourDetails": "White, Cream",
@@ -185,7 +189,7 @@
     },
     {
         "id": 11,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Kusa",
         "price": "36",
         "image1": "/images/sheer11-1.jpg",
@@ -203,7 +207,7 @@
     },
     {
         "id": 12,
-        "type":"SR",
+        "type":"SR-B-",
         "title": "Sol",
         "price": "35",
         "image1": "/images/sheer12-1.jpg",
