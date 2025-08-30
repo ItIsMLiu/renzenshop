@@ -49,6 +49,7 @@ const ItemDetails = () => {
         item.image6,
         item.image7,
         item.image8,
+        item.image9,        
     ].filter(Boolean); // removes undefined/null
 
     const chunkArray = (arr, size) => {
